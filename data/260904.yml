@@ -7,7 +7,7 @@ about:
   head: f3b9f74
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:21:08Z
+  collectedAt: 2026-09-04T21:16:12Z
 timeline:
   created: 2019-03-18
   lastCommit: 2026-09-04
@@ -92,6 +92,104 @@ total:
   openIssue: 0
   commit: 32438
 ---
+path: /home/runner/.x-repo/github.com/sqlite/sqlite
+collectedAt: 2026-09-04T21:16:47Z
+loc:
+  C:
+    code: 304953
+    comments: 90068
+    blanks: 27233
+    files: 315
+  Tcl:
+    code: 27474
+    comments: 7399
+    blanks: 2785
+    files: 106
+  Autoconf:
+    code: 24921
+    comments: 1998
+    blanks: 1004
+    files: 13
+  JavaScript:
+    code: 17019
+    comments: 10542
+    blanks: 1054
+    files: 42
+  CHeader:
+    code: 9709
+    comments: 10104
+    blanks: 1387
+    files: 42
+  Java:
+    code: 8418
+    comments: 3995
+    blanks: 1067
+    files: 58
+  Sh:
+    code: 2484
+    comments: 610
+    blanks: 250
+    files: 18
+  Html:
+    code: 2397
+    comments: 50
+    blanks: 108
+    files: 21
+  Happy:
+    code: 2217
+    comments: 0
+    blanks: 223
+    files: 3
+  Sql:
+    code: 1525
+    comments: 26
+    blanks: 72
+    files: 13
+  Makefile:
+    code: 1455
+    comments: 780
+    blanks: 305
+    files: 1
+  Batch:
+    code: 625
+    comments: 413
+    blanks: 160
+    files: 3
+  CSharp:
+    code: 307
+    comments: 297
+    blanks: 90
+    files: 2
+  Css:
+    code: 122
+    comments: 3
+    blanks: 1
+    files: 2
+  Svg:
+    code: 102
+    comments: 1
+    blanks: 1
+    files: 1
+  ModuleDef:
+    code: 92
+    comments: 0
+    blanks: 10
+    files: 3
+  Markdown:
+    code: 0
+    comments: 4921
+    blanks: 1228
+    files: 27
+  Text:
+    code: 0
+    comments: 28320
+    blanks: 229
+    files: 18
+total:
+  code: 405279
+  comments: 159684
+  blanks: 37252
+  files: 688
 ---
 date: "2026-08-24"
 repo:
