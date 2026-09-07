@@ -5,13 +5,13 @@ about:
   head: f3b9f74
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-07T05:58:11Z
+  collectedAt: 2026-09-07T18:34:30Z
 timeline:
   created: 2019-03-18
   lastCommit: 2026-09-04
   lastRelease: 
 popularity:
-  star: 10436
+  star: 10438
   watcher: 149
   fork: 1644
   release: 0
@@ -91,7 +91,7 @@ total:
   commit: 32438
 ---
 path: /home/runner/.x-repo/github.com/sqlite/sqlite
-collectedAt: 2026-09-07T05:59:35Z
+collectedAt: 2026-09-07T18:35:53Z
 loc:
   C:
     code: 304953
@@ -280,7 +280,7 @@ checks:
       - 'Info: Possibly incomplete results: error parsing shell code: a command can only contain words and redirects; encountered (: tool/cg_anno.tcl:0'
 ---
 eget:
-  collectedAt: 2026-09-07T05:59:37+00:00
+  collectedAt: 2026-09-07T18:35:58+00:00
   platform:
     darwin/arm64:
       name:  null
