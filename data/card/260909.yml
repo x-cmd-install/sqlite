@@ -282,3 +282,4 @@ checks:
       - 'Info: Possibly incomplete results: error parsing shell code: | can only immediately follow a statement: test/speedtest.tcl:0'
       - 'Info: Possibly incomplete results: error parsing shell code: a command can only contain words and redirects; encountered (: test/testrunner.tcl:0'
       - 'Info: Possibly incomplete results: error parsing shell code: a command can only contain words and redirects; encountered (: tool/cg_anno.tcl:0'
+---
