@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-11T06:05:07Z
+  collectedAt: 2026-09-11T18:41:09Z
 timeline:
   created: 2019-03-18
   lastCommit: 2026-09-10
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 10450
+  star: 10451
   watcher: 149
   fork: 1648
   release: 0
@@ -95,7 +95,7 @@ total:
   commit: 32442
 ---
 path: /home/runner/.x-repo/github.com/sqlite/sqlite
-collectedAt: 2026-09-11T06:06:27Z
+collectedAt: 2026-09-11T18:42:40Z
 loc:
   C:
     code: 304957
