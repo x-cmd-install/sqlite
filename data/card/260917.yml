@@ -282,3 +282,4 @@ checks:
     reason: branch protection not enabled on development/release branches
     details:
       - 'Warn: branch protection not enabled for branch ''master'''
+---
