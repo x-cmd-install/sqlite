@@ -14,11 +14,11 @@ x install sqlite
 
 ## Code insight
 
-Total: **405,451** lines of code across **518** files in the top 5 languages.
+Total: **405,456** lines of code across **518** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 306,459 | 91,247 | 27,222 | 315 |
+| C | 306,464 | 91,256 | 27,225 | 315 |
 | Tcl | 27,477 | 7,399 | 2,785 | 106 |
 | Autoconf | 24,930 | 2,000 | 1,004 | 13 |
 | JavaScript | 17,055 | 10,571 | 1,055 | 42 |
@@ -41,22 +41,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,536 · **Forks**: 1,667 · **Open issues**: 0 · **Contributors**: 1
+- **Stars**: 10,540 · **Forks**: 1,669 · **Open issues**: 0 · **Contributors**: 1
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 23 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 32492
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 23 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 32501
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-07-26 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-06-26 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last180d | 2026-03-28 | 0 | 0 | 4 | 0 | 0 | 0 |
-| 360d | 2025-09-29 | 0 | 0 | 9 | 0 | 0 | 0 |
-| last720d | 2024-10-04 | 0 | 0 | 13 | 0 | 0 | 3707 |
+| 30d | 2026-08-26 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-07-27 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 90d | 2026-06-27 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last180d | 2026-03-29 | 0 | 0 | 4 | 0 | 0 | 0 |
+| 360d | 2025-09-30 | 0 | 0 | 9 | 0 | 0 | 0 |
+| last720d | 2024-10-05 | 0 | 0 | 13 | 0 | 0 | 3715 |
 
 ## Improve this data
 
@@ -67,4 +67,4 @@ Install metadata for sqlite lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T05:56:02Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T06:05:07Z._
