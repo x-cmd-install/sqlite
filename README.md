@@ -14,13 +14,13 @@ x install sqlite
 
 ## Code insight
 
-Total: **418,449** lines of code across **522** files in the top 5 languages.
+Total: **418,460** lines of code across **522** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 318,502 | 92,685 | 28,112 | 317 |
-| Tcl | 28,237 | 7,451 | 2,922 | 109 |
-| Autoconf | 24,931 | 2,000 | 1,004 | 13 |
+| C | 318,504 | 92,686 | 28,112 | 317 |
+| Tcl | 28,244 | 7,454 | 2,924 | 109 |
+| Autoconf | 24,933 | 2,000 | 1,004 | 13 |
 | JavaScript | 17,136 | 10,711 | 1,061 | 41 |
 | CHeader | 9,718 | 10,104 | 1,387 | 42 |
 
@@ -41,22 +41,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,584 · **Forks**: 1,680 · **Open issues**: 0 · **Contributors**: 1
+- **Stars**: 10,592 · **Forks**: 1,680 · **Open issues**: 0 · **Contributors**: 1
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 24 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 32540
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 24 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 32544
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-08-04 | 0 | 0 | 2 | 0 | 0 | 0 |
-| 90d | 2026-07-05 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last180d | 2026-04-06 | 0 | 0 | 5 | 0 | 0 | 0 |
-| 360d | 2025-10-08 | 0 | 0 | 10 | 0 | 0 | 0 |
-| last720d | 2024-10-13 | 0 | 0 | 14 | 0 | 0 | 3697 |
+| 30d | 2026-09-04 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-08-05 | 0 | 0 | 2 | 0 | 0 | 0 |
+| 90d | 2026-07-06 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last180d | 2026-04-07 | 0 | 0 | 5 | 0 | 0 | 0 |
+| 360d | 2025-10-09 | 0 | 0 | 10 | 0 | 0 | 0 |
+| last720d | 2024-10-14 | 0 | 0 | 14 | 0 | 0 | 3701 |
 
 ## Improve this data
 
@@ -67,4 +67,4 @@ Install metadata for sqlite lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T06:26:35Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T07:06:05Z._
