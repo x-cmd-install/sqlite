@@ -14,13 +14,13 @@ x install sqlite
 
 ## Code insight
 
-Total: **418,682** lines of code across **522** files in the top 5 languages.
+Total: **418,676** lines of code across **522** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 318,692 | 92,735 | 28,128 | 317 |
+| C | 318,683 | 92,735 | 28,129 | 317 |
 | Tcl | 28,256 | 7,495 | 2,927 | 109 |
-| Autoconf | 24,933 | 2,000 | 1,004 | 13 |
+| Autoconf | 24,936 | 2,003 | 1,004 | 13 |
 | JavaScript | 17,136 | 10,711 | 1,061 | 41 |
 | CHeader | 9,720 | 10,104 | 1,387 | 42 |
 
@@ -31,8 +31,8 @@ Overall score: **4.5 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
 
@@ -41,22 +41,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,606 · **Forks**: 1,684 · **Open issues**: 0 · **Contributors**: 1
+- **Stars**: 10,611 · **Forks**: 1,685 · **Open issues**: 0 · **Contributors**: 1
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 24 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 32569
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 24 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 32575
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-08-07 | 0 | 0 | 2 | 0 | 0 | 0 |
-| 90d | 2026-07-08 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last180d | 2026-04-09 | 0 | 0 | 5 | 0 | 0 | 0 |
-| 360d | 2025-10-11 | 0 | 0 | 10 | 0 | 0 | 0 |
-| last720d | 2024-10-16 | 0 | 0 | 14 | 0 | 0 | 3717 |
+| 30d | 2026-09-07 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-08-08 | 0 | 0 | 2 | 0 | 0 | 0 |
+| 90d | 2026-07-09 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last180d | 2026-04-10 | 0 | 0 | 5 | 0 | 0 | 0 |
+| 360d | 2025-10-12 | 0 | 0 | 10 | 0 | 0 | 0 |
+| last720d | 2024-10-17 | 0 | 0 | 14 | 0 | 0 | 3718 |
 
 ## Improve this data
 
@@ -67,4 +67,4 @@ Install metadata for sqlite lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T07:38:37Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T07:22:03Z._
