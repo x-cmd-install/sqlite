@@ -14,15 +14,15 @@ x install sqlite
 
 ## Code insight
 
-Total: **422,592** lines of code across **523** files in the top 5 languages.
+Total: **422,599** lines of code across **523** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 319,867 | 93,234 | 28,198 | 318 |
+| C | 319,879 | 93,244 | 28,198 | 318 |
 | Tcl | 28,276 | 7,502 | 2,929 | 109 |
 | Autoconf | 25,276 | 2,015 | 1,024 | 13 |
 | JavaScript | 17,223 | 10,747 | 1,063 | 41 |
-| CHeader | 9,732 | 10,124 | 1,389 | 42 |
+| CHeader | 9,727 | 10,120 | 1,388 | 42 |
 
 ## OpenSSF Scorecard
 
@@ -41,26 +41,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,804 · **Forks**: 1,705 · **Open issues**: 0 · **Contributors**: 1
+- **Stars**: 10,825 · **Forks**: 1,707 · **Open issues**: 0 · **Contributors**: 1
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 26 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 32870
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 26 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 32880
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-08-27 | 0 | 0 | 3 | 0 | 0 | 0 |
-| 90d | 2026-07-28 | 0 | 0 | 4 | 0 | 0 | 0 |
-| last180d | 2026-04-29 | 0 | 0 | 7 | 0 | 0 | 0 |
-| 360d | 2025-10-31 | 0 | 0 | 12 | 0 | 0 | 0 |
-| last720d | 2024-11-05 | 0 | 0 | 16 | 0 | 0 | 3759 |
+| 30d | 2026-09-27 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-08-28 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-07-29 | 0 | 0 | 4 | 0 | 0 | 0 |
+| last180d | 2026-04-30 | 0 | 0 | 7 | 0 | 0 | 0 |
+| 360d | 2025-11-01 | 0 | 0 | 12 | 0 | 0 | 0 |
+| last720d | 2024-11-06 | 0 | 0 | 16 | 0 | 0 | 3757 |
 
 ## Distribution status
 
-Reported by **735** distros on [repology.org](https://repology.org/project/sqlite). **44** are ✅ on the latest upstream release, **376** are ⚠️ on an older version.
+Reported by **735** distros on [repology.org](https://repology.org/project/sqlite). **46** are ✅ on the latest upstream release, **374** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,7 +75,7 @@ Reported by **735** distros on [repology.org](https://repology.org/project/sqlit
 | Nix unstable | `3.53.3` | ⚠️ outdated |
 | Void | `3.53.4` | ⚠️ outdated |
 | Alpine edge | `3.54.1` | ✅ latest |
-| openSUSE Tumbleweed | `3.53.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.54.1` | ✅ latest |
 
 ## Improve this data
 
@@ -86,4 +86,4 @@ Install metadata for sqlite lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:51:45Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T06:16:13Z._
