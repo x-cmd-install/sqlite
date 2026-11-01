@@ -14,15 +14,15 @@ x install sqlite
 
 ## Code insight
 
-Total: **423,013** lines of code across **524** files in the top 5 languages.
+Total: **423,073** lines of code across **523** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 320,261 | 93,456 | 28,222 | 319 |
+| C | 320,062 | 93,453 | 28,215 | 318 |
 | Tcl | 28,278 | 7,501 | 2,930 | 109 |
-| Autoconf | 25,286 | 2,019 | 1,024 | 13 |
-| JavaScript | 17,226 | 10,866 | 1,060 | 41 |
-| CHeader | 9,733 | 10,121 | 1,390 | 42 |
+| Autoconf | 25,284 | 2,019 | 1,024 | 13 |
+| JavaScript | 17,485 | 11,095 | 1,066 | 41 |
+| CHeader | 9,735 | 10,120 | 1,390 | 42 |
 
 ## OpenSSF Scorecard
 
@@ -41,26 +41,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,865 · **Forks**: 1,712 · **Open issues**: 0 · **Contributors**: 1
+- **Stars**: 10,872 · **Forks**: 1,711 · **Open issues**: 0 · **Contributors**: 1
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 26 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 32948
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 26 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 32976
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-09-01 | 0 | 0 | 3 | 0 | 0 | 0 |
-| 90d | 2026-08-02 | 0 | 0 | 4 | 0 | 0 | 0 |
-| last180d | 2026-05-04 | 0 | 0 | 7 | 0 | 0 | 0 |
-| 360d | 2025-11-05 | 0 | 0 | 12 | 0 | 0 | 0 |
-| last720d | 2024-11-10 | 0 | 0 | 16 | 0 | 0 | 3786 |
+| 30d | 2026-10-02 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-09-02 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-08-03 | 0 | 0 | 4 | 0 | 0 | 0 |
+| last180d | 2026-05-05 | 0 | 0 | 7 | 0 | 0 | 0 |
+| 360d | 2025-11-06 | 0 | 0 | 12 | 0 | 0 | 0 |
+| last720d | 2024-11-11 | 0 | 0 | 16 | 0 | 0 | 3814 |
 
 ## Distribution status
 
-Reported by **737** distros on [repology.org](https://repology.org/project/sqlite). **52** are ✅ on the latest upstream release, **368** are ⚠️ on an older version.
+Reported by **747** distros on [repology.org](https://repology.org/project/sqlite). **62** are ✅ on the latest upstream release, **368** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for sqlite lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:54:20Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T07:13:16Z._
