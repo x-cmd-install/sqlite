@@ -1,39 +1,216 @@
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.25.1
-  origversion: 3.25.1-1
+  version: 3.7.7.1
+  origversion: 3.7.7.1-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.25.2
-  origversion: 3.25.2-1
+  version: 3.5.9
+  origversion: 3.5.9-1
+  status: legacy
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: "3.26"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.14.1
+  origversion: 3.14.1-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.25.3
-  origversion: 3.25.3-1
+  version: 3.14.2
+  origversion: 3.14.2-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.26.0
-  origversion: 3.26.0-1
+  version: 3.15.0
+  origversion: 3.15.0-1
   status: legacy
   vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.15.1
+  origversion: 3.15.1-1
+  status: legacy
+  vulnerable: true
+- repo: npackd_stable
   srcname: sqlite
   binname: sqlite
-  visiblename: sqlite
-  version: 3.54.1
+  visiblename: SQLite
+  version: "3.29"
   origversion: null
-  status: newest
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: "3.29"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.19.2
+  origversion: 3.19.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.32.1
+  origversion: 3.32.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.32.2
+  origversion: 3.32.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.32.3
+  origversion: 3.32.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.33.0
+  origversion: 3.33.0-1
+  status: outdated
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.19.3
+  origversion: 3.19.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.5.6
+  origversion: 3.5.6-3
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.5.8
+  origversion: 3.5.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.20.0
+  origversion: 3.20.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.6.10
+  origversion: 3.6.10-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.20.1
+  origversion: 3.20.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.21.0
+  origversion: 3.21.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.6.1
+  origversion: 3.6.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.6.13
+  origversion: 3.6.13-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.7.14.1
+  origversion: 3.7.14.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.6.17
+  origversion: 3.6.17-1
+  status: legacy
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: "3.34"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.34.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.37.1
+  origversion: null
+  status: outdated
+  categories:
+    - Development
   vulnerable: true
 - repo: gentoo
   srcname: dev-db/sqlite
@@ -81,17 +258,7 @@
   srcname: sqlite
   binname: sqlite
   visiblename: SQLite
-  version: 3.19.3
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.8.8
+  version: "3.37"
   origversion: null
   status: legacy
   categories:
@@ -184,6 +351,48 @@
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
+  version: 3.32.0
+  origversion: 3.32.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.30.0
+  origversion: 3.30.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.16.2
+  origversion: 3.16.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.17.0
+  origversion: 3.17.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.18.0
+  origversion: 3.18.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.30.1
+  origversion: 3.30.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
   version: 3.31.1
   origversion: 3.31.1-1
   status: legacy
@@ -191,36 +400,97 @@
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.33.0
-  origversion: 3.33.0-1
+  version: 3.6.20
+  origversion: 3.6.20-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.6.21
+  origversion: 3.6.21-1
+  status: legacy
+  vulnerable: true
+- repo: manjaro_testing
+  subrepo: multilib
+  srcname: lib32-sqlite
+  binname: lib32-sqlite
+  visiblename: lib32-sqlite
+  version: 3.54.0
+  origversion: 3.54.0-1
   status: outdated
+  summary: A C library that implements an SQL database engine (32-bit)
+  licenses:
+    - LicenseRef-Sqlite
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.5.6
-  origversion: 3.5.6-3
+  version: 3.6.22
+  origversion: 3.6.22-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.5.8
-  origversion: 3.5.8-1
+  version: 3.6.23.1
+  origversion: 3.6.23.1-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.6.13
-  origversion: 3.6.13-1
+  version: 3.6.23
+  origversion: 3.6.23-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.6.17
-  origversion: 3.6.17-1
+  version: 3.6.4
+  origversion: 3.6.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.8.1
+  origversion: 3.8.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.6.8
+  origversion: 3.6.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.22.0
+  origversion: 3.22.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.7.0.1
+  origversion: 3.7.0.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.23.0
+  origversion: 3.23.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.7.0
+  origversion: 3.7.0-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -228,6 +498,55 @@
   visiblename: sqlite
   version: 3.7.11
   origversion: 3.7.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.8.3
+  origversion: 3.8.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.23.1
+  origversion: 3.23.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.7.13
+  origversion: 3.7.13-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.24.0
+  origversion: 3.24.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.7.14
+  origversion: 3.7.14-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.8.8.2
+  origversion: 3.8.8.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.25.0
+  origversion: 3.25.0-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -247,130 +566,9 @@
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.8.10.2
-  origversion: 3.8.10.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.8.4.2
-  origversion: 3.8.4.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.8.8.3
-  origversion: 3.8.8.3-1
-  status: legacy
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.37.1
-  origversion: null
-  status: outdated
-  categories:
-    - Development
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.6.23.1
-  origversion: 3.6.23.1-1
-  status: legacy
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.8.7.3
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.6.23
-  origversion: 3.6.23-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.7.14.1
-  origversion: 3.7.14.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.7.14
-  origversion: 3.7.14-1
-  status: legacy
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.9.1
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.12.2
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: "3.13"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: "3.15"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
   version: 3.7.16
   origversion: 3.7.16-1
   status: legacy
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.16.2
-  origversion: null
-  status: legacy
-  categories:
-    - Development
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
@@ -386,331 +584,11 @@
   origversion: 3.7.17-1
   status: legacy
   vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.35.3
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.7.5
-  origversion: 3.7.5-1
-  status: legacy
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.35.4
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.28"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.28"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.29"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.27.2
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.29"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.30"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.30"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.30.1
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.30.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.31.1
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.31.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.32.1
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.32.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.32.2
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.32.2
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.32.3
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
   version: 3.7.2
   origversion: 3.7.2-1
-  status: legacy
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.32.3
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.33"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.33"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.34"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.34"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.34.1
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.35"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.19.2
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.35.1
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.35.2
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.21.0
-  origversion: 3.21.0-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -720,313 +598,11 @@
   origversion: 3.7.3-1
   status: legacy
   vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.35.2
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.19.3
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: "3.20"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.22.0
-  origversion: 3.22.0-1
-  status: legacy
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.35.3
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.23.0
-  origversion: 3.23.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.23.1
-  origversion: 3.23.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.25.0
-  origversion: 3.25.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.24.0
-  origversion: 3.24.0-1
-  status: legacy
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.35.4
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.35.5
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.35.5
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.27.0
-  origversion: 3.27.0-1
-  status: legacy
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.36"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.27.1
-  origversion: 3.27.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.27.2
-  origversion: 3.27.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.28.0
-  origversion: 3.28.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.29.0
-  origversion: 3.29.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.30.0
-  origversion: 3.30.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.30.1
-  origversion: 3.30.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.32.0
-  origversion: 3.32.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.32.1
-  origversion: 3.32.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.32.2
-  origversion: 3.32.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.32.3
-  origversion: 3.32.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.5.9
-  origversion: 3.5.9-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.6.10
-  origversion: 3.6.10-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.6.1
-  origversion: 3.6.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.6.20
-  origversion: 3.6.20-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.6.21
-  origversion: 3.6.21-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.6.22
-  origversion: 3.6.22-1
-  status: legacy
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.36"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.37"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.37"
-  origversion: null
-  status: outdated
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.6.4
-  origversion: 3.6.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.6.8
-  origversion: 3.6.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.7.0.1
-  origversion: 3.7.0.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.7.0
-  origversion: 3.7.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.7.13
-  origversion: 3.7.13-1
+  version: 3.7.5
+  origversion: 3.7.5-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -1046,46 +622,16 @@
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.7.7.1
-  origversion: 3.7.7.1-1
+  version: 3.7.8
+  origversion: 3.7.8-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.7.8
-  origversion: 3.7.8-1
+  version: 3.25.1
+  origversion: 3.25.1-1
   status: legacy
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.25.2
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.25.3
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: "3.26"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
@@ -1094,16 +640,6 @@
   origversion: 3.7.9-1
   status: legacy
   vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.27.1
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
@@ -1111,21 +647,11 @@
   origversion: 3.8.0.2-1
   status: legacy
   vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.27.2
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.8.1
-  origversion: 3.8.1-1
+  version: 3.8.10.2
+  origversion: 3.8.10.2-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -1138,19 +664,16 @@
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.8.3
-  origversion: 3.8.3-1
+  version: 3.25.2
+  origversion: 3.25.2-1
   status: legacy
   vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: "3.28"
-  origversion: null
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.8.4.2
+  origversion: 3.8.4.2-1
   status: legacy
-  categories:
-    - Development
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
@@ -1158,16 +681,6 @@
   version: 3.8.5
   origversion: 3.8.5-1
   status: legacy
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: "3.29"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
@@ -1193,15 +706,205 @@
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.8.8.2
-  origversion: 3.8.8.2-1
+  version: 3.8.8.3
+  origversion: 3.8.8.3-1
   status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.9.0.0
+  origversion: 3.9.0.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.25.3
+  origversion: 3.25.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.9.1.0
+  origversion: 3.9.1.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.9.2.0
+  origversion: 3.9.2.0-1
+  status: legacy
+  vulnerable: true
+- repo: manjaro_testing
+  subrepo: core
+  srcname: sqlite
+  binname: lemon
+  visiblename: lemon
+  version: 3.54.1
+  origversion: 3.54.1-1
+  status: newest
+  summary: A parser generator
+  licenses:
+    - LicenseRef-Sqlite
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: "3.15"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.16.2
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: "3.35"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
   vulnerable: true
 - repo: npackd_stable64
   srcname: sqlite64
   binname: sqlite64
   visiblename: SQLite 64 bit
-  version: "3.30"
+  version: 3.20.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: "3.21"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: "3.22"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: "3.26"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: "3.23"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.23.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.25.2
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: "3.24"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.25.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.25.3
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.27.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.27.2
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: "3.28"
   origversion: null
   status: legacy
   categories:
@@ -1217,12 +920,15 @@
   categories:
     - Development
   vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.9.0.0
-  origversion: 3.9.0.0-1
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: "3.30"
+  origversion: null
   status: legacy
+  categories:
+    - Development
   vulnerable: true
 - repo: npackd_stable64
   srcname: sqlite64
@@ -1233,6 +939,16 @@
   status: legacy
   categories:
     - Development
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: sqlite
+  visiblename: sqlite
+  version: 3.50.4
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: npackd_stable64
   srcname: sqlite64
@@ -1254,13 +970,6 @@
   categories:
     - Development
   vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.9.1.0
-  origversion: 3.9.1.0-1
-  status: legacy
-  vulnerable: true
 - repo: npackd_stable64
   srcname: sqlite64
   binname: sqlite64
@@ -1271,38 +980,11 @@
   categories:
     - Development
   vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.9.2.0
-  origversion: 3.9.2.0-1
-  status: legacy
-  vulnerable: true
 - repo: npackd_stable64
   srcname: sqlite64
   binname: sqlite64
   visiblename: SQLite 64 bit
   version: "3.33"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: "3.34"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.34.1
   origversion: null
   status: legacy
   categories:
@@ -1338,245 +1020,6 @@
   categories:
     - Development
   vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.35.3
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.35.4
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.35.5
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: "3.36"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: "3.37"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.37.1
-  origversion: null
-  status: outdated
-  categories:
-    - Development
-  vulnerable: true
-- repo: parabola
-  subrepo: core
-  srcname: sqlite
-  binname: sqlite
-  visiblename: sqlite
-  version: 3.54.1
-  origversion: 3.54.1-1
-  status: newest
-  summary: A C library that implements an SQL database engine
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
-- repo: os4depot
-  binname: development/library/misc/sqlite.lha
-  visiblename: sqlite.lha
-  version: 3.34.0
-  origversion: null
-  status: outdated
-  summary: SQL database engine
-  categories:
-    - development/library/misc
-  vulnerable: true
-- repo: parabola
-  subrepo: core
-  srcname: sqlite
-  binname: sqlite-tcl
-  visiblename: sqlite-tcl
-  version: 3.54.1
-  origversion: 3.54.1-1
-  status: newest
-  summary: sqlite Tcl Extension Architecture (TEA)
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
-- repo: parabola
-  subrepo: core
-  srcname: sqlite
-  binname: lemon
-  visiblename: lemon
-  version: 3.54.1
-  origversion: 3.54.1-1
-  status: newest
-  summary: A parser generator
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
-- repo: manjaro_testing
-  subrepo: multilib
-  srcname: lib32-sqlite
-  binname: lib32-sqlite
-  visiblename: lib32-sqlite
-  version: 3.54.0
-  origversion: 3.54.0-1
-  status: outdated
-  summary: A C library that implements an SQL database engine (32-bit)
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
-- repo: manjaro_testing
-  subrepo: core
-  srcname: sqlite
-  binname: lemon
-  visiblename: lemon
-  version: 3.54.1
-  origversion: 3.54.1-1
-  status: newest
-  summary: A parser generator
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: powertools
-  srcname: mingw-sqlite
-  visiblename: mingw-sqlite
-  version: 3.26.0.0
-  origversion: 3.26.0.0-1.el8
-  status: outdated
-  summary: MinGW Windows port of sqlite embeddable SQL database engine
-  licenses:
-    - Public Domain
-  categories:
-    - Applications/Databases
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: sqlite
-  binname: sqlite
-  visiblename: sqlite
-  version: 3.26.0
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: sqlite
-  binname: sqlite
-  visiblename: sqlite
-  version: 3.8.2
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: sqlite
-  binname: sqlite
-  visiblename: sqlite
-  version: 3.54.1
-  origversion: null
-  status: newest
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: sqlite
-  binname: sqlite
-  visiblename: sqlite
-  version: 3.26.0
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: manjaro_stable
-  subrepo: multilib
-  srcname: lib32-sqlite
-  binname: lib32-sqlite
-  visiblename: lib32-sqlite
-  version: 3.53.4
-  origversion: 3.53.4-1
-  status: outdated
-  summary: A C library that implements an SQL database engine (32-bit)
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
-- repo: manjaro_stable
-  subrepo: core
-  srcname: sqlite
-  binname: sqlite-tcl
-  visiblename: sqlite-tcl
-  version: 3.53.4
-  origversion: 3.53.4-1
-  status: outdated
-  summary: sqlite Tcl Extension Architecture (TEA)
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
-- repo: parabola
-  subrepo: core
-  srcname: sqlite
-  binname: sqlite-analyzer
-  visiblename: sqlite-analyzer
-  version: 3.54.1
-  origversion: 3.54.1-1
-  status: newest
-  summary: An analysis program for sqlite3 database files
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
-- repo: manjaro_stable
-  subrepo: core
-  srcname: sqlite
-  binname: sqlite-analyzer
-  visiblename: sqlite-analyzer
-  version: 3.53.4
-  origversion: 3.53.4-1
-  status: outdated
-  summary: An analysis program for sqlite3 database files
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
-- repo: manjaro_stable
-  subrepo: core
-  srcname: sqlite
-  binname: lemon
-  visiblename: lemon
-  version: 3.53.4
-  origversion: 3.53.4-1
-  status: outdated
-  summary: A parser generator
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
 - repo: aixtoolbox
   srcname: sqlite
   visiblename: sqlite
@@ -1589,23 +1032,11 @@
   categories:
     - Applications/Databases
   vulnerable: true
-- repo: manjaro_stable
-  subrepo: core
-  srcname: sqlite
-  binname: sqlite
-  visiblename: sqlite
-  version: 3.53.4
-  origversion: 3.53.4-1
-  status: outdated
-  summary: A C library that implements an SQL database engine
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.16.2
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.35.3
   origversion: null
   status: legacy
   categories:
@@ -1626,6 +1057,18 @@
   categories:
     - Applications/Databases
   vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.15"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
 - repo: almalinux_8
   subrepo: BaseOS
   srcname: sqlite
@@ -1640,66 +1083,6 @@
     - Public Domain
   categories:
     - Applications/Databases
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.35"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.20.1
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: chocolatey
-  binname: SQLite
-  visiblename: SQLite
-  version: 3.54.1
-  origversion: null
-  status: newest
-  summary: A DLL for the SQLite SQL database engine installed in your user path.
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: "3.21"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.25.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: "3.22"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
   vulnerable: true
 - repo: almalinux_8
   subrepo: BaseOS
@@ -1716,11 +1099,43 @@
   categories:
     - Applications/Databases
   vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.35.4
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.19.3
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.35.5
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
 - repo: npackd_stable
   srcname: sqlite
   binname: sqlite
   visiblename: SQLite
-  version: 3.25.2
+  version: "3.20"
   origversion: null
   status: legacy
   categories:
@@ -1741,10 +1156,134 @@
   categories:
     - Applications/Databases
   vulnerable: true
+- repo: cygwin
+  srcname: sqlite3
+  binname: sqlite3-rbu
+  visiblename: sqlite3-rbu
+  version: 3.49.1
+  origversion: 3.49.1-1
+  status: outdated
+  summary: Client program for accessing SQLite 3 databases, plus docs
+  maintainers:
+    - jan.nijtmans@cygwin
+  categories:
+    - Database
+  vulnerable: true
+- repo: cygwin
+  srcname: sqlite3
+  binname: sqlite3-vfslog
+  visiblename: sqlite3-vfslog
+  version: 3.49.1
+  origversion: 3.49.1-1
+  status: outdated
+  summary: Client program for accessing SQLite 3 databases, plus docs
+  maintainers:
+    - jan.nijtmans@cygwin
+  categories:
+    - Database
+  vulnerable: true
 - repo: npackd_stable64
   srcname: sqlite64
   binname: sqlite64
   visiblename: SQLite 64 bit
+  version: "3.36"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.20"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.20.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.20.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.22"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: "3.21"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.21"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: "3.22"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: "3.37"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
   version: "3.23"
   origversion: null
   status: legacy
@@ -1755,11 +1294,165 @@
   srcname: sqlite-source
   binname: sqlite-source
   visiblename: SQLite Source
-  version: 3.25.2
+  version: "3.23"
   origversion: null
   status: legacy
   licenses:
     - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.23.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.23.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: "3.24"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.24"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.25.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.25.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.25.2
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: sqlite
+  binnames:
+    - sqlite
+    - sqlite-doc
+    - libsqlite0
+    - libsqlite0-dev
+    - libsqlite-tcl
+  visiblename: sqlite
+  version: 2.8.17
+  origversion: 2.8.17-15
+  status: legacy
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - database
+  vulnerable: true
+- repo: cygwin
+  srcname: sqlite3
+  binname: sqlite3-zlib
+  visiblename: sqlite3-zlib
+  version: 3.49.1
+  origversion: 3.49.1-1
+  status: outdated
+  summary: Client program for accessing SQLite 3 databases, plus docs
+  maintainers:
+    - jan.nijtmans@cygwin
+  categories:
+    - Database
+  vulnerable: true
+- repo: amazon_2
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.7.17
+  origversion: 3.7.17-8.amzn2.1.1
+  status: outdated
+  summary: Library that implements an embeddable SQL database engine
+  licenses:
+    - Public Domain
+  categories:
+    - Applications/Databases
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.29"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: cygwin
+  srcname: sqlite3
+  binname: tcl-sqlite3
+  visiblename: tcl-sqlite3
+  version: 3.49.1
+  origversion: 3.49.1-1
+  status: outdated
+  summary: Client program for accessing SQLite 3 databases, plus docs
+  maintainers:
+    - jan.nijtmans@cygwin
+  categories:
+    - Database
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: "3.30"
+  origversion: null
+  status: legacy
   categories:
     - Development
   vulnerable: true
@@ -1779,22 +1472,14 @@
     - Applications/Databases
   vulnerable: true
 - repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.25.3
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.30"
   origversion: null
   status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.23.1
-  origversion: null
-  status: legacy
+  licenses:
+    - Freeware
   categories:
     - Development
   vulnerable: true
@@ -1813,27 +1498,6 @@
   categories:
     - Applications/Databases
   vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: "3.24"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: crux_38
-  subrepo: core
-  srcname: sqlite3
-  visiblename: sqlite3
-  version: 3.54.1
-  origversion: null
-  status: newest
-  summary: SQL database engine
-  maintainers:
-    - core-ports@crux.nu
-  vulnerable: true
 - repo: npackd_stable
   srcname: sqlite-source
   binname: sqlite-source
@@ -1846,6 +1510,78 @@
   categories:
     - Development
   vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.30.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.19.2
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.25.2
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: crux_37
+  subrepo: core
+  srcname: sqlite3
+  visiblename: sqlite3
+  version: 3.49.1
+  origversion: null
+  status: outdated
+  summary: SQL database engine
+  maintainers:
+    - core-ports@crux.nu
+  vulnerable: true
+- repo: crux_37
+  subrepo: compat-32
+  srcname: sqlite3-32
+  visiblename: sqlite3-32
+  version: 3.49.1
+  origversion: null
+  status: outdated
+  summary: SQL database engine
+  maintainers:
+    - compat-32-ports@crux.nu
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.12.1
+  origversion: 3.12.1-1
+  status: legacy
+  vulnerable: true
+- repo: crux_38
+  subrepo: core
+  srcname: sqlite3
+  visiblename: sqlite3
+  version: 3.54.1
+  origversion: null
+  status: newest
+  summary: SQL database engine
+  maintainers:
+    - core-ports@crux.nu
+  vulnerable: true
 - repo: crux_38
   subrepo: compat-32
   srcname: sqlite3-32
@@ -1856,6 +1592,151 @@
   summary: SQL database engine
   maintainers:
     - compat-32-ports@crux.nu
+  vulnerable: true
+- repo: cygwin
+  srcname: sqlite3
+  binname: libsqlite3-devel
+  visiblename: libsqlite3-devel
+  version: 3.49.1
+  origversion: 3.49.1-1
+  status: outdated
+  summary: Client program for accessing SQLite 3 databases, plus docs
+  maintainers:
+    - jan.nijtmans@cygwin
+  categories:
+    - Database
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.12.2
+  origversion: 3.12.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.13.0
+  origversion: 3.13.0-1
+  status: legacy
+  vulnerable: true
+- repo: cygwin
+  srcname: sqlite3
+  binname: libsqlite3_0
+  visiblename: libsqlite3_0
+  version: 3.49.1
+  origversion: 3.49.1-1
+  status: outdated
+  summary: Client program for accessing SQLite 3 databases, plus docs
+  maintainers:
+    - jan.nijtmans@cygwin
+  categories:
+    - Database
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.14.0
+  origversion: 3.14.0-1
+  status: legacy
+  vulnerable: true
+- repo: cygwin
+  srcname: sqlite3
+  binname: sqlite3
+  visiblename: sqlite3
+  version: 3.49.1
+  origversion: 3.49.1-1
+  status: outdated
+  summary: Client program for accessing SQLite 3 databases, plus docs
+  maintainers:
+    - jan.nijtmans@cygwin
+  categories:
+    - Database
+  vulnerable: true
+- repo: cygwin
+  srcname: sqlite3
+  binname: sqlite3-compress
+  visiblename: sqlite3-compress
+  version: 3.49.1
+  origversion: 3.49.1-1
+  status: outdated
+  summary: Client program for accessing SQLite 3 databases, plus docs
+  maintainers:
+    - jan.nijtmans@cygwin
+  categories:
+    - Database
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.25.3
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: cygwin
+  srcname: sqlite3
+  binname: sqlite3-debuginfo
+  visiblename: sqlite3-debuginfo
+  version: 3.49.1
+  origversion: 3.49.1-1
+  status: outdated
+  summary: Client program for accessing SQLite 3 databases, plus docs
+  maintainers:
+    - jan.nijtmans@cygwin
+  categories:
+    - Debug
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.15.2
+  origversion: 3.15.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.26.0
+  origversion: 3.26.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.16.0
+  origversion: 3.16.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.27.0
+  origversion: 3.27.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.16.1
+  origversion: 3.16.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.27.1
+  origversion: 3.27.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.27.2
+  origversion: 3.27.2-1
+  status: legacy
   vulnerable: true
 - repo: adelie_current
   subrepo: system
@@ -1871,44 +1752,6 @@
   licenses:
     - Public-Domain
   vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.25.3
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: almalinux_9
-  subrepo: BaseOS
-  srcname: sqlite
-  binnames:
-    - sqlite-debugsource
-    - sqlite-debuginfo
-    - sqlite-analyzer
-    - sqlite-tcl
-    - sqlite-tools
-    - lemon
-    - sqlite-doc
-    - sqlite-libs
-    - sqlite-devel
-    - sqlite
-  visiblename: sqlite
-  version: 3.34.1
-  origversion: 3.34.1-10.el9_8
-  status: outdated
-  summary: Library that implements an embeddable SQL database engine
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Public Domain
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: adelie_current
   subrepo: system
   srcname: sqlite
@@ -1923,109 +1766,19 @@
   licenses:
     - Public-Domain
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.26.0
-  origversion: 3.26.0-16.el8_6
-  status: outdated
-  summary: Library that implements an embeddable SQL database engine
-  licenses:
-    - Public Domain
-  categories:
-    - Applications/Databases
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.26"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.26.0
-  origversion: 3.26.0-17.el8_7
-  status: outdated
-  summary: Library that implements an embeddable SQL database engine
-  licenses:
-    - Public Domain
-  categories:
-    - Applications/Databases
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.26.0
-  origversion: 3.26.0-18.el8_8
-  status: outdated
-  summary: Library that implements an embeddable SQL database engine
-  licenses:
-    - Public Domain
-  categories:
-    - Applications/Databases
-  vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.17.0
-  origversion: 3.17.0-1
+  version: 3.28.0
+  origversion: 3.28.0-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: sqlite
   visiblename: sqlite
-  version: 3.18.0
-  origversion: 3.18.0-1
+  version: 3.29.0
+  origversion: 3.29.0-1
   status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.19.2
-  origversion: 3.19.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.19.3
-  origversion: 3.19.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.20.0
-  origversion: 3.20.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.20.1
-  origversion: 3.20.1-1
-  status: legacy
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.26.0
-  origversion: 3.26.0-6.el8
-  status: outdated
-  summary: Library that implements an embeddable SQL database engine
-  licenses:
-    - Public Domain
-  categories:
-    - Applications/Databases
   vulnerable: true
 - repo: adelie_current
   subrepo: system
@@ -2093,89 +1846,31 @@
   origversion: 3.12.0-1
   status: legacy
   vulnerable: true
-- repo: aix_osp
+- repo: almalinux_9
+  subrepo: BaseOS
   srcname: sqlite
+  binnames:
+    - sqlite-debugsource
+    - sqlite-debuginfo
+    - sqlite-analyzer
+    - sqlite-tcl
+    - sqlite-tools
+    - lemon
+    - sqlite-doc
+    - sqlite-libs
+    - sqlite-devel
+    - sqlite
   visiblename: sqlite
-  version: 3.12.1
-  origversion: 3.12.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.12.2
-  origversion: 3.12.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.13.0
-  origversion: 3.13.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.14.0
-  origversion: 3.14.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.14.1
-  origversion: 3.14.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.14.2
-  origversion: 3.14.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.15.0
-  origversion: 3.15.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.15.1
-  origversion: 3.15.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.15.2
-  origversion: 3.15.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.16.0
-  origversion: 3.16.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.16.1
-  origversion: 3.16.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.16.2
-  origversion: 3.16.2-1
-  status: legacy
+  version: 3.34.1
+  origversion: 3.34.1-10.el9_8
+  status: outdated
+  summary: Library that implements an embeddable SQL database engine
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Public Domain
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: almalinux_9
   subrepo: BaseOS
@@ -2343,6 +2038,26 @@
   licenses:
     - blessing
   vulnerable: true
+- repo: apertis_v2027
+  subrepo: v2027dev1/target
+  srcname: sqlite3
+  binnames:
+    - lemon
+    - sqlite3
+    - sqlite3-doc
+    - libsqlite3-0
+    - libsqlite3-dev
+    - libsqlite3-tcl
+    - libsqlite3-ext-csv
+    - libsqlite3-ext-icu
+    - sqlite3-tools
+  visiblename: sqlite3
+  version: 3.46.1
+  origversion: 3.46.1-7+apertis0
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  vulnerable: true
 - repo: alpine_3_18
   subrepo: main
   srcname: sqlite
@@ -2525,18 +2240,6 @@
   licenses:
     - blessing
   vulnerable: true
-- repo: artix
-  subrepo: system
-  srcname: sqlite
-  binname: sqlite-tcl
-  visiblename: sqlite-tcl
-  version: 3.54.1
-  origversion: 3.54.1-1
-  status: newest
-  summary: sqlite Tcl Extension Architecture (TEA)
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
 - repo: alpine_3_20
   subrepo: main
   srcname: sqlite
@@ -2649,174 +2352,185 @@
   licenses:
     - blessing
   vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: sqlite
-  binname: sqlite-libs
-  visiblename: sqlite-libs
-  version: 3.48.0
-  origversion: 3.48.0-r4
+- repo: cygwin
+  srcname: sqlite3
+  binname: sqlite3-extensions
+  visiblename: sqlite3-extensions
+  version: 3.49.1
+  origversion: 3.49.1-1
   status: outdated
-  summary: C library that implements an SQL database engine (libraries)
+  summary: Client program for accessing SQLite 3 databases, plus docs
   maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - blessing
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: sqlite
-  binname: sqlite-static
-  visiblename: sqlite-static
-  version: 3.48.0
-  origversion: 3.48.0-r4
-  status: outdated
-  summary: C library that implements an SQL database engine (static library)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - blessing
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: sqlite
-  binname: sqlite
-  visiblename: sqlite
-  version: 3.49.2
-  origversion: 3.49.2-r1
-  status: outdated
-  summary: C library that implements an SQL database engine
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - blessing
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: sqlite
-  binname: sqlite-dev
-  visiblename: sqlite-dev
-  version: 3.49.2
-  origversion: 3.49.2-r1
-  status: outdated
-  summary: C library that implements an SQL database engine (development files)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - blessing
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: sqlite
-  binname: sqlite-doc
-  visiblename: sqlite-doc
-  version: 3.49.2
-  origversion: 3.49.2-r1
-  status: outdated
-  summary: C library that implements an SQL database engine (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - blessing
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: sqlite
-  binname: sqlite-libs
-  visiblename: sqlite-libs
-  version: 3.49.2
-  origversion: 3.49.2-r1
-  status: outdated
-  summary: C library that implements an SQL database engine (libraries)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - blessing
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: sqlite
-  binname: sqlite-static
-  visiblename: sqlite-static
-  version: 3.49.2
-  origversion: 3.49.2-r1
-  status: outdated
-  summary: C library that implements an SQL database engine (static library)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - blessing
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: sqlite
-  binname: sqlite
-  visiblename: sqlite
-  version: 3.53.4
-  origversion: 3.53.4-r0
-  status: outdated
-  summary: C library that implements an SQL database engine
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - blessing
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: sqlite
-  binname: sqlite-dev
-  visiblename: sqlite-dev
-  version: 3.53.4
-  origversion: 3.53.4-r0
-  status: outdated
-  summary: C library that implements an SQL database engine (development files)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - blessing
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: sqlite
-  binname: sqlite-doc
-  visiblename: sqlite-doc
-  version: 3.53.4
-  origversion: 3.53.4-r0
-  status: outdated
-  summary: C library that implements an SQL database engine (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - blessing
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: sqlite
-  binname: sqlite-libs
-  visiblename: sqlite-libs
-  version: 3.53.4
-  origversion: 3.53.4-r0
-  status: outdated
-  summary: C library that implements an SQL database engine (libraries)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - blessing
-  vulnerable: true
-- repo: centos_stream_8
-  subrepo: BaseOS
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.26.0
-  origversion: 3.26.0-17.el8
-  status: outdated
-  summary: Library that implements an embeddable SQL database engine
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - Public Domain
+    - jan.nijtmans@cygwin
   categories:
-    - Applications/Databases
+    - Database
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: sqlite
+  binname: sqlite-libs
+  visiblename: sqlite-libs
+  version: 3.48.0
+  origversion: 3.48.0-r4
+  status: outdated
+  summary: C library that implements an SQL database engine (libraries)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - blessing
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: sqlite
+  binname: sqlite-static
+  visiblename: sqlite-static
+  version: 3.48.0
+  origversion: 3.48.0-r4
+  status: outdated
+  summary: C library that implements an SQL database engine (static library)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - blessing
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: sqlite
+  binname: sqlite
+  visiblename: sqlite
+  version: 3.49.2
+  origversion: 3.49.2-r1
+  status: outdated
+  summary: C library that implements an SQL database engine
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - blessing
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: sqlite
+  binname: sqlite-dev
+  visiblename: sqlite-dev
+  version: 3.49.2
+  origversion: 3.49.2-r1
+  status: outdated
+  summary: C library that implements an SQL database engine (development files)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - blessing
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: sqlite
+  binname: sqlite-doc
+  visiblename: sqlite-doc
+  version: 3.49.2
+  origversion: 3.49.2-r1
+  status: outdated
+  summary: C library that implements an SQL database engine (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - blessing
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: sqlite
+  binname: sqlite-libs
+  visiblename: sqlite-libs
+  version: 3.49.2
+  origversion: 3.49.2-r1
+  status: outdated
+  summary: C library that implements an SQL database engine (libraries)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - blessing
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: sqlite
+  binname: sqlite-static
+  visiblename: sqlite-static
+  version: 3.49.2
+  origversion: 3.49.2-r1
+  status: outdated
+  summary: C library that implements an SQL database engine (static library)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - blessing
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: sqlite
+  binname: sqlite
+  visiblename: sqlite
+  version: 3.53.4
+  origversion: 3.53.4-r0
+  status: outdated
+  summary: C library that implements an SQL database engine
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - blessing
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: sqlite
+  binname: sqlite-dev
+  visiblename: sqlite-dev
+  version: 3.53.4
+  origversion: 3.53.4-r0
+  status: outdated
+  summary: C library that implements an SQL database engine (development files)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - blessing
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: sqlite
+  binname: sqlite-doc
+  visiblename: sqlite-doc
+  version: 3.53.4
+  origversion: 3.53.4-r0
+  status: outdated
+  summary: C library that implements an SQL database engine (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - blessing
+  vulnerable: true
+- repo: aur
+  srcname: mingw-w64-sqlite
+  binname: mingw-w64-sqlite
+  visiblename: mingw-w64-sqlite
+  version: 3.53.4
+  origversion: 3.53.4-1
+  status: outdated
+  summary: A C library that implements an SQL database engine (mingw-w64)
+  maintainers:
+    - martchus@aur
+  licenses:
+    - custom:public domain
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: sqlite
+  binname: sqlite-libs
+  visiblename: sqlite-libs
+  version: 3.53.4
+  origversion: 3.53.4-r0
+  status: outdated
+  summary: C library that implements an SQL database engine (libraries)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - blessing
   vulnerable: true
 - repo: alpine_3_23
   subrepo: main
@@ -3063,18 +2777,6 @@
   srcname: sqlite
   visiblename: sqlite
   version: 3.7.17
-  origversion: 3.7.17-8.amzn2.1.1
-  status: outdated
-  summary: Library that implements an embeddable SQL database engine
-  licenses:
-    - Public Domain
-  categories:
-    - Applications/Databases
-  vulnerable: true
-- repo: amazon_2
-  srcname: sqlite
-  visiblename: sqlite
-  version: 3.7.17
   origversion: 3.7.17-8.amzn2.1.2
   status: outdated
   summary: Library that implements an embeddable SQL database engine
@@ -3088,6 +2790,18 @@
   visiblename: sqlite
   version: 3.7.17
   origversion: 3.7.17-8.amzn2.1.3
+  status: outdated
+  summary: Library that implements an embeddable SQL database engine
+  licenses:
+    - Public Domain
+  categories:
+    - Applications/Databases
+  vulnerable: true
+- repo: amazon_2
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.7.17
+  origversion: 3.7.17-8.amzn2.1.4
   status: outdated
   summary: Library that implements an embeddable SQL database engine
   licenses:
@@ -3150,18 +2864,6 @@
   maintainers:
     - gcs@debian.org
   vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.21"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
 - repo: apertis_v2024
   subrepo: v2024/target
   srcname: sqlite3
@@ -3217,38 +2919,6 @@
   status: outdated
   maintainers:
     - gcs@debian.org
-  vulnerable: true
-- repo: apertis_v2027
-  subrepo: v2027dev1/target
-  srcname: sqlite3
-  binnames:
-    - lemon
-    - sqlite3
-    - sqlite3-doc
-    - libsqlite3-0
-    - libsqlite3-dev
-    - libsqlite3-tcl
-    - libsqlite3-ext-csv
-    - libsqlite3-ext-icu
-    - sqlite3-tools
-  visiblename: sqlite3
-  version: 3.46.1
-  origversion: 3.46.1-7+apertis0
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  vulnerable: true
-- repo: arch
-  subrepo: multilib
-  srcname: lib32-sqlite
-  binname: lib32-sqlite
-  visiblename: lib32-sqlite
-  version: 3.54.0
-  origversion: 3.54.0-1
-  status: outdated
-  summary: A C library that implements an SQL database engine (32-bit)
-  licenses:
-    - LicenseRef-Sqlite
   vulnerable: true
 - repo: arch
   subrepo: core
@@ -3310,18 +2980,43 @@
   licenses:
     - LicenseRef-Sqlite
   vulnerable: true
-- repo: aur
-  srcname: mingw-w64-sqlite
-  binname: mingw-w64-sqlite
-  visiblename: mingw-w64-sqlite
-  version: 3.53.4
-  origversion: 3.53.4-1
+- repo: arch
+  subrepo: multilib
+  srcname: lib32-sqlite
+  binname: lib32-sqlite
+  visiblename: lib32-sqlite
+  version: 3.54.0
+  origversion: 3.54.0-1
   status: outdated
-  summary: A C library that implements an SQL database engine (mingw-w64)
-  maintainers:
-    - martchus@aur
+  summary: A C library that implements an SQL database engine (32-bit)
   licenses:
-    - custom:public domain
+    - LicenseRef-Sqlite
+  vulnerable: true
+- repo: aur
+  srcname: lib32-sqlite2
+  binname: lib32-sqlite2
+  visiblename: lib32-sqlite2
+  version: 2.8.17
+  origversion: 2.8.17-5
+  status: outdated
+  summary: A C library that implements an SQL database engine
+  maintainers:
+    - frazar0@aur
+  licenses:
+    - custom
+  vulnerable: true
+- repo: aur
+  srcname: sqlite2
+  binname: sqlite2
+  visiblename: sqlite2
+  version: 2.8.17
+  origversion: 2.8.17-11
+  status: outdated
+  summary: A C library that implements an SQL database engine
+  maintainers:
+    - not_anonymous@aur
+  licenses:
+    - LicenseRef-sqlite2
   vulnerable: true
 - repo: aur
   srcname: android-aarch64-sqlite
@@ -3375,6 +3070,31 @@
   licenses:
     - LicenseRef-Sqlite
   vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.25.3
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.26.0
+  origversion: 3.26.0-18.el8_8
+  status: outdated
+  summary: Library that implements an embeddable SQL database engine
+  licenses:
+    - Public Domain
+  categories:
+    - Applications/Databases
+  vulnerable: true
 - repo: aur
   srcname: android-x86-sqlite
   binname: android-x86-sqlite
@@ -3388,42 +3108,6 @@
   licenses:
     - LicenseRef-Sqlite
   vulnerable: true
-- repo: aur
-  srcname: sqlite2
-  binname: sqlite2
-  visiblename: sqlite2
-  version: 2.8.17
-  origversion: 2.8.17-11
-  status: outdated
-  summary: A C library that implements an SQL database engine
-  maintainers:
-    - not_anonymous@aur
-  licenses:
-    - LicenseRef-sqlite2
-  vulnerable: true
-- repo: aur
-  srcname: lib32-sqlite2
-  binname: lib32-sqlite2
-  visiblename: lib32-sqlite2
-  version: 2.8.17
-  origversion: 2.8.17-5
-  status: outdated
-  summary: A C library that implements an SQL database engine
-  maintainers:
-    - frazar0@aur
-  licenses:
-    - custom
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.19.2
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
 - repo: artix
   subrepo: system
   srcname: sqlite
@@ -3433,6 +3117,18 @@
   origversion: 3.54.1-1
   status: newest
   summary: most of the static HTML files that comprise this website, including all of the SQL Syntax and the C/C++ interface specs and other miscellaneous documentation
+  licenses:
+    - LicenseRef-Sqlite
+  vulnerable: true
+- repo: artix
+  subrepo: system
+  srcname: sqlite
+  binname: sqlite-analyzer
+  visiblename: sqlite-analyzer
+  version: 3.54.1
+  origversion: 3.54.1-1
+  status: newest
+  summary: An analysis program for sqlite3 database files
   licenses:
     - LicenseRef-Sqlite
   vulnerable: true
@@ -3451,24 +3147,14 @@
 - repo: artix
   subrepo: system
   srcname: sqlite
-  binname: sqlite-analyzer
-  visiblename: sqlite-analyzer
+  binname: sqlite-tcl
+  visiblename: sqlite-tcl
   version: 3.54.1
   origversion: 3.54.1-1
   status: newest
-  summary: An analysis program for sqlite3 database files
+  summary: sqlite Tcl Extension Architecture (TEA)
   licenses:
     - LicenseRef-Sqlite
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.22"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
   vulnerable: true
 - repo: artix
   subrepo: system
@@ -3611,6 +3297,21 @@
   srcname: sqlite
   visiblename: sqlite
   version: 3.26.0
+  origversion: 3.26.0-17.el8
+  status: outdated
+  summary: Library that implements an embeddable SQL database engine
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - Public Domain
+  categories:
+    - Applications/Databases
+  vulnerable: true
+- repo: centos_stream_8
+  subrepo: BaseOS
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.26.0
   origversion: 3.26.0-18.el8
   status: outdated
   summary: Library that implements an embeddable SQL database engine
@@ -3702,6 +3403,19 @@
     - Public Domain
   categories:
     - Unspecified
+  vulnerable: true
+- repo: cygwin
+  srcname: mingw64-i686-sqlite3
+  binname: mingw64-i686-sqlite3
+  visiblename: mingw64-i686-sqlite3
+  version: 3.34.0
+  origversion: 3.34.0-1
+  status: outdated
+  summary: SQLite 3.x database library for Win32 toolchain
+  maintainers:
+    - jan.nijtmans@cygwin
+  categories:
+    - Devel
   vulnerable: true
 - repo: centos_stream_9
   subrepo: BaseOS
@@ -3807,19 +3521,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: cygwin
-  srcname: sqlite3
-  binname: sqlite3-compress
-  visiblename: sqlite3-compress
-  version: 3.49.1
-  origversion: 3.49.1-1
-  status: outdated
-  summary: Client program for accessing SQLite 3 databases, plus docs
-  maintainers:
-    - jan.nijtmans@cygwin
-  categories:
-    - Database
-  vulnerable: true
 - repo: centos_stream_10
   subrepo: BaseOS
   srcname: sqlite
@@ -3845,6 +3546,19 @@
     - blessing
   categories:
     - Unspecified
+  vulnerable: true
+- repo: cygwin
+  srcname: sqlite3
+  binname: sqlite3-icu
+  visiblename: sqlite3-icu
+  version: 3.49.1
+  origversion: 3.49.1-1
+  status: outdated
+  summary: Client program for accessing SQLite 3 databases, plus docs
+  maintainers:
+    - jan.nijtmans@cygwin
+  categories:
+    - Database
   vulnerable: true
 - repo: centos_stream_10
   subrepo: BaseOS
@@ -3973,6 +3687,14 @@
     - blessing
   vulnerable: true
 - repo: chocolatey
+  binname: SQLite
+  visiblename: SQLite
+  version: 3.54.1
+  origversion: null
+  status: newest
+  summary: A DLL for the SQLite SQL database engine installed in your user path.
+  vulnerable: true
+- repo: chocolatey
   binname: sqlite.analyzer
   visiblename: SQLite Analyzer
   version: 3.54.1
@@ -4026,40 +3748,18 @@
   origversion: null
   status: legacy
   vulnerable: true
-- repo: crux_37
-  subrepo: core
-  srcname: sqlite3
-  visiblename: sqlite3
-  version: 3.49.1
-  origversion: null
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.26.0
+  origversion: 3.26.0-17.el8_7
   status: outdated
-  summary: SQL database engine
-  maintainers:
-    - core-ports@crux.nu
-  vulnerable: true
-- repo: crux_37
-  subrepo: compat-32
-  srcname: sqlite3-32
-  visiblename: sqlite3-32
-  version: 3.49.1
-  origversion: null
-  status: outdated
-  summary: SQL database engine
-  maintainers:
-    - compat-32-ports@crux.nu
-  vulnerable: true
-- repo: cygwin
-  srcname: mingw64-i686-sqlite3
-  binname: mingw64-i686-sqlite3
-  visiblename: mingw64-i686-sqlite3
-  version: 3.34.0
-  origversion: 3.34.0-1
-  status: outdated
-  summary: SQLite 3.x database library for Win32 toolchain
-  maintainers:
-    - jan.nijtmans@cygwin
+  summary: Library that implements an embeddable SQL database engine
+  licenses:
+    - Public Domain
   categories:
-    - Devel
+    - Applications/Databases
   vulnerable: true
 - repo: cygwin
   srcname: mingw64-i686-sqlite3
@@ -4100,155 +3800,6 @@
   categories:
     - Debug
   vulnerable: true
-- repo: cygwin
-  srcname: sqlite3
-  binname: libsqlite3-devel
-  visiblename: libsqlite3-devel
-  version: 3.49.1
-  origversion: 3.49.1-1
-  status: outdated
-  summary: Client program for accessing SQLite 3 databases, plus docs
-  maintainers:
-    - jan.nijtmans@cygwin
-  categories:
-    - Database
-  vulnerable: true
-- repo: cygwin
-  srcname: sqlite3
-  binname: libsqlite3_0
-  visiblename: libsqlite3_0
-  version: 3.49.1
-  origversion: 3.49.1-1
-  status: outdated
-  summary: Client program for accessing SQLite 3 databases, plus docs
-  maintainers:
-    - jan.nijtmans@cygwin
-  categories:
-    - Database
-  vulnerable: true
-- repo: cygwin
-  srcname: sqlite3
-  binname: sqlite3
-  visiblename: sqlite3
-  version: 3.49.1
-  origversion: 3.49.1-1
-  status: outdated
-  summary: Client program for accessing SQLite 3 databases, plus docs
-  maintainers:
-    - jan.nijtmans@cygwin
-  categories:
-    - Database
-  vulnerable: true
-- repo: cygwin
-  srcname: sqlite3
-  binname: sqlite3-debuginfo
-  visiblename: sqlite3-debuginfo
-  version: 3.49.1
-  origversion: 3.49.1-1
-  status: outdated
-  summary: Client program for accessing SQLite 3 databases, plus docs
-  maintainers:
-    - jan.nijtmans@cygwin
-  categories:
-    - Debug
-  vulnerable: true
-- repo: cygwin
-  srcname: sqlite3
-  binname: sqlite3-extensions
-  visiblename: sqlite3-extensions
-  version: 3.49.1
-  origversion: 3.49.1-1
-  status: outdated
-  summary: Client program for accessing SQLite 3 databases, plus docs
-  maintainers:
-    - jan.nijtmans@cygwin
-  categories:
-    - Database
-  vulnerable: true
-- repo: cygwin
-  srcname: sqlite3
-  binname: sqlite3-icu
-  visiblename: sqlite3-icu
-  version: 3.49.1
-  origversion: 3.49.1-1
-  status: outdated
-  summary: Client program for accessing SQLite 3 databases, plus docs
-  maintainers:
-    - jan.nijtmans@cygwin
-  categories:
-    - Database
-  vulnerable: true
-- repo: cygwin
-  srcname: sqlite3
-  binname: sqlite3-rbu
-  visiblename: sqlite3-rbu
-  version: 3.49.1
-  origversion: 3.49.1-1
-  status: outdated
-  summary: Client program for accessing SQLite 3 databases, plus docs
-  maintainers:
-    - jan.nijtmans@cygwin
-  categories:
-    - Database
-  vulnerable: true
-- repo: cygwin
-  srcname: sqlite3
-  binname: sqlite3-vfslog
-  visiblename: sqlite3-vfslog
-  version: 3.49.1
-  origversion: 3.49.1-1
-  status: outdated
-  summary: Client program for accessing SQLite 3 databases, plus docs
-  maintainers:
-    - jan.nijtmans@cygwin
-  categories:
-    - Database
-  vulnerable: true
-- repo: cygwin
-  srcname: sqlite3
-  binname: sqlite3-zlib
-  visiblename: sqlite3-zlib
-  version: 3.49.1
-  origversion: 3.49.1-1
-  status: outdated
-  summary: Client program for accessing SQLite 3 databases, plus docs
-  maintainers:
-    - jan.nijtmans@cygwin
-  categories:
-    - Database
-  vulnerable: true
-- repo: cygwin
-  srcname: sqlite3
-  binname: tcl-sqlite3
-  visiblename: tcl-sqlite3
-  version: 3.49.1
-  origversion: 3.49.1-1
-  status: outdated
-  summary: Client program for accessing SQLite 3 databases, plus docs
-  maintainers:
-    - jan.nijtmans@cygwin
-  categories:
-    - Database
-  vulnerable: true
-- repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: sqlite3
-  binnames:
-    - lemon
-    - sqlite3
-    - sqlite3-doc
-    - libsqlite3-0
-    - libsqlite3-dev
-    - libsqlite3-tcl
-  visiblename: sqlite3
-  version: 3.34.1
-  origversion: 3.34.1-3+deb11u1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - database
-  vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
   srcname: sqlite3
@@ -4268,30 +3819,24 @@
   categories:
     - database
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: powertools
-  srcname: mingw-sqlite
-  visiblename: mingw-sqlite
-  version: 3.22.0.0
-  origversion: 3.22.0.0-3.el8
-  status: legacy
-  summary: MinGW Windows port of sqlite embeddable SQL database engine
-  licenses:
-    - Public Domain
+- repo: debian_11
+  subrepo: bullseye-security/main
+  srcname: sqlite3
+  binnames:
+    - lemon
+    - sqlite3
+    - sqlite3-doc
+    - libsqlite3-0
+    - libsqlite3-dev
+    - libsqlite3-tcl
+  visiblename: sqlite3
+  version: 3.34.1
+  origversion: 3.34.1-3+deb11u1
+  status: outdated
+  maintainers:
+    - gcs@debian.org
   categories:
-    - Applications/Databases
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.26"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
+    - database
   vulnerable: true
 - repo: debian_12
   subrepo: bookworm/main
@@ -4349,9 +3894,9 @@
     - libsqlite3-ext-icu
     - sqlite3-tools
   visiblename: sqlite3
-  version: 3.53.4
-  origversion: 3.53.4-2
-  status: outdated
+  version: 3.54.1
+  origversion: 3.54.1-2
+  status: newest
   maintainers:
     - gcs@debian.org
   categories:
@@ -4579,6 +4124,58 @@
   origversion: 3.26.0-15.el8
   status: outdated
   summary: Library that implements an embeddable SQL database engine
+  licenses:
+    - Public Domain
+  categories:
+    - Applications/Databases
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.26.0
+  origversion: 3.26.0-16.el8_6
+  status: outdated
+  summary: Library that implements an embeddable SQL database engine
+  licenses:
+    - Public Domain
+  categories:
+    - Applications/Databases
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: sqlite
+  visiblename: sqlite
+  version: 3.26.0
+  origversion: 3.26.0-6.el8
+  status: outdated
+  summary: Library that implements an embeddable SQL database engine
+  licenses:
+    - Public Domain
+  categories:
+    - Applications/Databases
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: powertools
+  srcname: mingw-sqlite
+  visiblename: mingw-sqlite
+  version: 3.22.0.0
+  origversion: 3.22.0.0-3.el8
+  status: legacy
+  summary: MinGW Windows port of sqlite embeddable SQL database engine
+  licenses:
+    - Public Domain
+  categories:
+    - Applications/Databases
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: powertools
+  srcname: mingw-sqlite
+  visiblename: mingw-sqlite
+  version: 3.26.0.0
+  origversion: 3.26.0.0-1.el8
+  status: outdated
+  summary: MinGW Windows port of sqlite embeddable SQL database engine
   licenses:
     - Public Domain
   categories:
@@ -4896,6 +4493,21 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: liguros_stable
+  srcname: dev-db/sqlite
+  visiblename: dev-db/sqlite
+  version: 3.49.1
+  origversion: null
+  status: legacy
+  summary: SQL database engine
+  maintainers:
+    - jsmolic@gentoo.org
+    - base-system@gentoo.org
+  licenses:
+    - public-domain
+  categories:
+    - dev-db
+  vulnerable: true
 - repo: fedora_41
   subrepo: release
   srcname: mingw-sqlite
@@ -4997,6 +4609,24 @@
   vulnerable: true
 - repo: fedora_43
   subrepo: release
+  srcname: mingw-sqlite
+  binnames:
+    - mingw32-sqlite
+    - mingw32-sqlite-static
+    - mingw64-sqlite
+    - mingw64-sqlite-static
+  visiblename: mingw-sqlite
+  version: 3.50.2
+  origversion: 3.50.2-2.fc43
+  status: outdated
+  summary: MinGW Windows port of sqlite embeddable SQL database engine
+  licenses:
+    - blessing
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_43
+  subrepo: release
   srcname: sqlite
   binnames:
     - sqlite
@@ -5017,34 +4647,6 @@
     - blessing
   categories:
     - Unspecified
-  vulnerable: true
-- repo: fedora_43
-  subrepo: release
-  srcname: mingw-sqlite
-  binnames:
-    - mingw32-sqlite
-    - mingw32-sqlite-static
-    - mingw64-sqlite
-    - mingw64-sqlite-static
-  visiblename: mingw-sqlite
-  version: 3.50.2
-  origversion: 3.50.2-2.fc43
-  status: outdated
-  summary: MinGW Windows port of sqlite embeddable SQL database engine
-  licenses:
-    - blessing
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.27.1
-  origversion: null
-  status: legacy
-  categories:
-    - Development
   vulnerable: true
 - repo: fedora_43
   subrepo: release
@@ -5105,6 +4707,28 @@
     - blessing
   categories:
     - Unspecified
+  vulnerable: true
+- repo: kali_rolling
+  subrepo: main
+  srcname: sqlite3
+  binnames:
+    - lemon
+    - sqlite3
+    - sqlite3-doc
+    - libsqlite3-0
+    - libsqlite3-dev
+    - libsqlite3-tcl
+    - libsqlite3-ext-csv
+    - libsqlite3-ext-icu
+    - sqlite3-tools
+  visiblename: sqlite3
+  version: 3.53.4
+  origversion: 3.53.4-2
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - database
   vulnerable: true
 - repo: fedora_44
   subrepo: release
@@ -5171,26 +4795,6 @@
   vulnerable: true
 - repo: fedora_rawhide
   subrepo: development
-  srcname: mingw-sqlite
-  binnames:
-    - mingw32-sqlite
-    - mingw32-sqlite-static
-    - mingw64-sqlite
-    - mingw64-sqlite-static
-    - mingw32-sqlite-debuginfo
-    - mingw64-sqlite-debuginfo
-  visiblename: mingw-sqlite
-  version: 3.54.1
-  origversion: 3.54.1-1.fc46
-  status: newest
-  summary: MinGW Windows port of sqlite embeddable SQL database engine
-  licenses:
-    - blessing
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_rawhide
-  subrepo: development
   srcname: sqlite
   binnames:
     - sqlite
@@ -5214,6 +4818,26 @@
   vulnerable: true
 - repo: fedora_rawhide
   subrepo: development
+  srcname: mingw-sqlite
+  binnames:
+    - mingw32-sqlite
+    - mingw32-sqlite-static
+    - mingw64-sqlite
+    - mingw64-sqlite-static
+    - mingw32-sqlite-debuginfo
+    - mingw64-sqlite-debuginfo
+  visiblename: mingw-sqlite
+  version: 3.54.1
+  origversion: 3.54.1-1.fc46
+  status: newest
+  summary: MinGW Windows port of sqlite embeddable SQL database engine
+  licenses:
+    - blessing
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_rawhide
+  subrepo: development
   srcname: sqlite2
   binnames:
     - sqlite2
@@ -5228,18 +4852,6 @@
     - blessing AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.20.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
   vulnerable: true
 - repo: freebsd
   srcname: databases/linux-c7-sqlite3
@@ -5292,6 +4904,18 @@
     - sunpoet@freebsd.org
   categories:
     - databases
+  vulnerable: true
+- repo: manjaro_stable
+  subrepo: core
+  srcname: sqlite
+  binname: sqlite
+  visiblename: sqlite
+  version: 3.53.4
+  origversion: 3.53.4-1
+  status: outdated
+  summary: A C library that implements an SQL database engine
+  licenses:
+    - LicenseRef-Sqlite
   vulnerable: true
 - repo: freebsd
   srcname: databases/tcl-sqlite3
@@ -5354,18 +4978,6 @@
   status: legacy
   summary: The SQLite database management system
   vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.27.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
 - repo: gobolinux
   srcname: SQLite
   visiblename: SQLite
@@ -5410,6 +5022,51 @@
   status: newest
   summary: Analyze how space is allocated inside an SQLite file
   vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: sqlite
+  binname: sqlite
+  visiblename: sqlite
+  version: 3.26.0
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: sqlite
+  binname: sqlite
+  visiblename: sqlite
+  version: 3.8.2
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: sqlite
+  binname: sqlite
+  visiblename: sqlite
+  version: 3.54.1
+  origversion: null
+  status: newest
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: sqlite
+  binname: sqlite
+  visiblename: sqlite
+  version: 3.26.0
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: sqlite
+  binname: sqlite
+  visiblename: sqlite
+  version: 3.54.1
+  origversion: null
+  status: newest
+  vulnerable: true
 - repo: ibmi
   srcname: sqlite3
   binnames:
@@ -5426,27 +5083,19 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: kali_rolling
-  subrepo: main
-  srcname: sqlite3
-  binnames:
-    - lemon
-    - sqlite3
-    - sqlite3-doc
-    - libsqlite3-0
-    - libsqlite3-dev
-    - libsqlite3-tcl
-    - libsqlite3-ext-csv
-    - libsqlite3-ext-icu
-    - sqlite3-tools
-  visiblename: sqlite3
-  version: 3.53.4
-  origversion: 3.53.4-2
-  status: outdated
+- repo: kaos
+  subrepo: core
+  srcname: sqlite
+  binname: sqlite
+  visiblename: sqlite
+  version: 3.54.1
+  origversion: 3.54.1-1
+  status: newest
+  summary: A C library that implements an SQL database engine
   maintainers:
-    - gcs@debian.org
-  categories:
-    - database
+    - demm@kaosx.us
+  licenses:
+    - custom
   vulnerable: true
 - repo: kaos
   subrepo: core
@@ -5457,20 +5106,6 @@
   origversion: 3.54.1-1
   status: newest
   summary: Documentation as a bundle of static HTML files, including all of the SQL Syntax and the C/C++ interface specs.
-  maintainers:
-    - demm@kaosx.us
-  licenses:
-    - custom
-  vulnerable: true
-- repo: kaos
-  subrepo: core
-  srcname: sqlite
-  binname: sqlite
-  visiblename: sqlite
-  version: 3.54.1
-  origversion: 3.54.1-1
-  status: newest
-  summary: A C library that implements an SQL database engine
   maintainers:
     - demm@kaosx.us
   licenses:
@@ -5516,6 +5151,18 @@
   categories:
     - dev-db
   vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.12.2
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
 - repo: liguros_stable
   srcname: dev-db/sqlite
   visiblename: dev-db/sqlite
@@ -5530,31 +5177,6 @@
     - public-domain
   categories:
     - dev-db
-  vulnerable: true
-- repo: liguros_stable
-  srcname: dev-db/sqlite
-  visiblename: dev-db/sqlite
-  version: 3.49.1
-  origversion: null
-  status: legacy
-  summary: SQL database engine
-  maintainers:
-    - jsmolic@gentoo.org
-    - base-system@gentoo.org
-  licenses:
-    - public-domain
-  categories:
-    - dev-db
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.21"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
   vulnerable: true
 - repo: liguros_stable
   srcname: dev-db/sqlite
@@ -5586,16 +5208,6 @@
   categories:
     - dev-db
   vulnerable: true
-- repo: npackd_stable64
-  srcname: sqlite64
-  binname: sqlite64
-  visiblename: SQLite 64 bit
-  version: 3.25.1
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
 - repo: liguros_develop
   srcname: dev-db/sqlite
   visiblename: dev-db/sqlite
@@ -5610,6 +5222,18 @@
     - public-domain
   categories:
     - dev-db
+  vulnerable: true
+- repo: manjaro_stable
+  subrepo: core
+  srcname: sqlite
+  binname: sqlite-doc
+  visiblename: sqlite-doc
+  version: 3.53.4
+  origversion: 3.53.4-1
+  status: outdated
+  summary: most of the static HTML files that comprise this website, including all of the SQL Syntax and the C/C++ interface specs and other miscellaneous documentation
+  licenses:
+    - LicenseRef-Sqlite
   vulnerable: true
 - repo: macports
   srcname: databases/sqlite2
@@ -5656,16 +5280,6 @@
     - public-domain
   categories:
     - databases
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.27.2
-  origversion: null
-  status: legacy
-  categories:
-    - Development
   vulnerable: true
 - repo: macports
   srcname: databases/sqlite3
@@ -5768,18 +5382,6 @@
   categories:
     - System/Libraries
   vulnerable: true
-- repo: manjaro_stable
-  subrepo: core
-  srcname: sqlite
-  binname: sqlite-doc
-  visiblename: sqlite-doc
-  version: 3.53.4
-  origversion: 3.53.4-1
-  status: outdated
-  summary: most of the static HTML files that comprise this website, including all of the SQL Syntax and the C/C++ interface specs and other miscellaneous documentation
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
   srcname: sqlite3
@@ -5801,6 +5403,18 @@
     - Public Domain
   categories:
     - System/Libraries
+  vulnerable: true
+- repo: manjaro_stable
+  subrepo: multilib
+  srcname: lib32-sqlite
+  binname: lib32-sqlite
+  visiblename: lib32-sqlite
+  version: 3.53.4
+  origversion: 3.53.4-1
+  status: outdated
+  summary: A C library that implements an SQL database engine (32-bit)
+  licenses:
+    - LicenseRef-Sqlite
   vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
@@ -5872,24 +5486,6 @@
   vulnerable: true
 - repo: mageia_10
   subrepo: core/release
-  srcname: mingw-sqlite
-  binnames:
-    - mingw32-sqlite
-    - mingw32-sqlite-static
-    - mingw64-sqlite
-    - mingw64-sqlite-static
-  visiblename: mingw-sqlite
-  version: 3.51.1
-  origversion: 3.51.1-1.mga10
-  status: outdated
-  summary: MinGW Windows port of sqlite embeddable SQL database engine
-  licenses:
-    - blessing
-  categories:
-    - Development/Other
-  vulnerable: true
-- repo: mageia_10
-  subrepo: core/release
   srcname: sqlite3
   binnames:
     - lib64sqlite3_0
@@ -5948,7 +5544,7 @@
   categories:
     - System/Libraries
   vulnerable: true
-- repo: mageia_cauldron
+- repo: mageia_10
   subrepo: core/release
   srcname: mingw-sqlite
   binnames:
@@ -5957,9 +5553,9 @@
     - mingw64-sqlite
     - mingw64-sqlite-static
   visiblename: mingw-sqlite
-  version: 3.54.1
-  origversion: 3.54.1-1.mga11
-  status: newest
+  version: 3.51.1
+  origversion: 3.51.1-1.mga10
+  status: outdated
   summary: MinGW Windows port of sqlite embeddable SQL database engine
   licenses:
     - blessing
@@ -5985,6 +5581,60 @@
     - Public Domain
   categories:
     - System/Libraries
+  vulnerable: true
+- repo: mageia_cauldron
+  subrepo: core/release
+  srcname: mingw-sqlite
+  binnames:
+    - mingw32-sqlite
+    - mingw32-sqlite-static
+    - mingw64-sqlite
+    - mingw64-sqlite-static
+  visiblename: mingw-sqlite
+  version: 3.54.1
+  origversion: 3.54.1-1.mga11
+  status: newest
+  summary: MinGW Windows port of sqlite embeddable SQL database engine
+  licenses:
+    - blessing
+  categories:
+    - Development/Other
+  vulnerable: true
+- repo: manjaro_stable
+  subrepo: core
+  srcname: sqlite
+  binname: sqlite-tcl
+  visiblename: sqlite-tcl
+  version: 3.53.4
+  origversion: 3.53.4-1
+  status: outdated
+  summary: sqlite Tcl Extension Architecture (TEA)
+  licenses:
+    - LicenseRef-Sqlite
+  vulnerable: true
+- repo: manjaro_stable
+  subrepo: core
+  srcname: sqlite
+  binname: sqlite-analyzer
+  visiblename: sqlite-analyzer
+  version: 3.53.4
+  origversion: 3.53.4-1
+  status: outdated
+  summary: An analysis program for sqlite3 database files
+  licenses:
+    - LicenseRef-Sqlite
+  vulnerable: true
+- repo: manjaro_stable
+  subrepo: core
+  srcname: sqlite
+  binname: lemon
+  visiblename: lemon
+  version: 3.53.4
+  origversion: 3.53.4-1
+  status: outdated
+  summary: A parser generator
+  licenses:
+    - LicenseRef-Sqlite
   vulnerable: true
 - repo: manjaro_testing
   subrepo: core
@@ -6049,6 +5699,42 @@
 - repo: manjaro_unstable
   subrepo: core
   srcname: sqlite
+  binname: lemon
+  visiblename: lemon
+  version: 3.54.1
+  origversion: 3.54.1-1
+  status: newest
+  summary: A parser generator
+  licenses:
+    - LicenseRef-Sqlite
+  vulnerable: true
+- repo: manjaro_unstable
+  subrepo: core
+  srcname: sqlite
+  binname: sqlite
+  visiblename: sqlite
+  version: 3.54.1
+  origversion: 3.54.1-1
+  status: newest
+  summary: A C library that implements an SQL database engine
+  licenses:
+    - LicenseRef-Sqlite
+  vulnerable: true
+- repo: manjaro_unstable
+  subrepo: core
+  srcname: sqlite
+  binname: sqlite-doc
+  visiblename: sqlite-doc
+  version: 3.54.1
+  origversion: 3.54.1-1
+  status: newest
+  summary: most of the static HTML files that comprise this website, including all of the SQL Syntax and the C/C++ interface specs and other miscellaneous documentation
+  licenses:
+    - LicenseRef-Sqlite
+  vulnerable: true
+- repo: manjaro_unstable
+  subrepo: core
+  srcname: sqlite
   binname: sqlite-tcl
   visiblename: sqlite-tcl
   version: 3.54.1
@@ -6070,41 +5756,26 @@
   licenses:
     - LicenseRef-Sqlite
   vulnerable: true
-- repo: manjaro_unstable
-  subrepo: core
-  srcname: sqlite
-  binname: lemon
-  visiblename: lemon
+- repo: msys2_clang64
+  srcname: mingw-w64-sqlite
+  binname: mingw-w64-clang-x86_64-sqlite-docs
+  visiblename: mingw-w64-clang-x86_64-sqlite-docs
   version: 3.54.1
-  origversion: 3.54.1-1
+  origversion: 3.54.1-2
   status: newest
-  summary: A parser generator
+  summary: A C library that implements an SQL database engine (mingw-w64) (documentation)
   licenses:
-    - LicenseRef-Sqlite
+    - PublicDomain
   vulnerable: true
-- repo: manjaro_unstable
-  subrepo: core
-  srcname: sqlite
-  binname: sqlite-doc
-  visiblename: sqlite-doc
-  version: 3.54.1
-  origversion: 3.54.1-1
-  status: newest
-  summary: most of the static HTML files that comprise this website, including all of the SQL Syntax and the C/C++ interface specs and other miscellaneous documentation
-  licenses:
-    - LicenseRef-Sqlite
-  vulnerable: true
-- repo: manjaro_unstable
-  subrepo: core
+- repo: npackd_stable
   srcname: sqlite
   binname: sqlite
-  visiblename: sqlite
-  version: 3.54.1
-  origversion: 3.54.1-1
-  status: newest
-  summary: A C library that implements an SQL database engine
-  licenses:
-    - LicenseRef-Sqlite
+  visiblename: SQLite
+  version: "3.13"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
   vulnerable: true
 - repo: msys2_clang64
   srcname: mingw-w64-sqlite
@@ -6114,17 +5785,6 @@
   origversion: 3.54.1-2
   status: newest
   summary: A C library that implements an SQL database engine (mingw-w64)
-  licenses:
-    - PublicDomain
-  vulnerable: true
-- repo: msys2_clang64
-  srcname: mingw-w64-sqlite
-  binname: mingw-w64-clang-x86_64-sqlite-docs
-  visiblename: mingw-w64-clang-x86_64-sqlite-docs
-  version: 3.54.1
-  origversion: 3.54.1-2
-  status: newest
-  summary: A C library that implements an SQL database engine (mingw-w64) (documentation)
   licenses:
     - PublicDomain
   vulnerable: true
@@ -6153,24 +5813,24 @@
 - repo: msys2_mingw
   subrepo: x86_64
   srcname: mingw-w64-sqlite
-  binname: mingw-w64-x86_64-sqlite
-  visiblename: mingw-w64-x86_64-sqlite
-  version: 3.54.1
-  origversion: 3.54.1-2
-  status: newest
-  summary: A C library that implements an SQL database engine (mingw-w64)
-  licenses:
-    - PublicDomain
-  vulnerable: true
-- repo: msys2_mingw
-  subrepo: x86_64
-  srcname: mingw-w64-sqlite
   binname: mingw-w64-x86_64-sqlite-docs
   visiblename: mingw-w64-x86_64-sqlite-docs
   version: 3.54.1
   origversion: 3.54.1-2
   status: newest
   summary: A C library that implements an SQL database engine (mingw-w64) (documentation)
+  licenses:
+    - PublicDomain
+  vulnerable: true
+- repo: msys2_mingw
+  subrepo: x86_64
+  srcname: mingw-w64-sqlite
+  binname: mingw-w64-x86_64-sqlite
+  visiblename: mingw-w64-x86_64-sqlite
+  version: 3.54.1
+  origversion: 3.54.1-2
+  status: newest
+  summary: A C library that implements an SQL database engine (mingw-w64)
   licenses:
     - PublicDomain
   vulnerable: true
@@ -6276,23 +5936,23 @@
   vulnerable: true
 - repo: msys2_ucrt64
   srcname: mingw-w64-sqlite
-  binname: mingw-w64-ucrt-x86_64-sqlite
-  visiblename: mingw-w64-ucrt-x86_64-sqlite
-  version: 3.54.1
-  origversion: 3.54.1-2
-  status: newest
-  summary: A C library that implements an SQL database engine (mingw-w64)
-  licenses:
-    - PublicDomain
-  vulnerable: true
-- repo: msys2_ucrt64
-  srcname: mingw-w64-sqlite
   binname: mingw-w64-ucrt-x86_64-sqlite-docs
   visiblename: mingw-w64-ucrt-x86_64-sqlite-docs
   version: 3.54.1
   origversion: 3.54.1-2
   status: newest
   summary: A C library that implements an SQL database engine (mingw-w64) (documentation)
+  licenses:
+    - PublicDomain
+  vulnerable: true
+- repo: msys2_ucrt64
+  srcname: mingw-w64-sqlite
+  binname: mingw-w64-ucrt-x86_64-sqlite
+  visiblename: mingw-w64-ucrt-x86_64-sqlite
+  version: 3.54.1
+  origversion: 3.54.1-2
+  status: newest
+  summary: A C library that implements an SQL database engine (mingw-w64)
   licenses:
     - PublicDomain
   vulnerable: true
@@ -6369,6 +6029,18 @@
     - np.nix@nicolaspouillard.fr
   licenses:
     - Public Domain
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.13"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
   vulnerable: true
 - repo: nix_stable_25_05
   srcname: sqlite
@@ -6498,6 +6170,16 @@
   categories:
     - Development
   vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.19.3
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
 - repo: nix_unstable
   srcname: sqlite
   visiblename: sqlite
@@ -6539,6 +6221,16 @@
     - pyrox@pyrox.dev
   licenses:
     - blessing
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.8.8
+  origversion: null
+  status: legacy
+  categories:
+    - Development
   vulnerable: true
 - repo: npackd_stable
   srcname: sqlite
@@ -6652,185 +6344,475 @@
   srcname: sqlite-source
   binname: sqlite-source
   visiblename: SQLite Source
+  version: "3.26"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.27.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.27.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.27.2
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.27.2
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: "3.28"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.28"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.30.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.31.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.31.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.32.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.32.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.32.2
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.32.2
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.32.3
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.32.3
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: "3.33"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.33"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: "3.34"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.34"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.34.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.35"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.35.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.35.2
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.35.2
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.35.3
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.35.3
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.35.4
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.35.4
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.35.5
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.35.5
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: "3.36"
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.36"
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: "3.37"
+  origversion: null
+  status: outdated
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite
+  binname: sqlite
+  visiblename: SQLite
+  version: 3.37.1
+  origversion: null
+  status: outdated
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: sqlite-source
+  binname: sqlite-source
+  visiblename: SQLite Source
+  version: 3.8.7.3
+  origversion: null
+  status: legacy
+  licenses:
+    - Freeware
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.9.1
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
   version: 3.12.2
   origversion: null
   status: legacy
-  licenses:
-    - Freeware
   categories:
     - Development
   vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
   version: "3.13"
   origversion: null
   status: legacy
   categories:
     - Development
   vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.13"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
   version: "3.15"
   origversion: null
   status: legacy
   categories:
     - Development
   vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.15"
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.16.2
   origversion: null
   status: legacy
-  licenses:
-    - Freeware
   categories:
     - Development
   vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
+  version: 3.19.2
+  origversion: null
+  status: legacy
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
   version: 3.19.3
   origversion: null
   status: legacy
-  licenses:
-    - Freeware
   categories:
     - Development
   vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
+- repo: npackd_stable64
+  srcname: sqlite64
+  binname: sqlite64
+  visiblename: SQLite 64 bit
   version: "3.20"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.20"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.20.1
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.22"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.23"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.23"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.23.1
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: 3.23.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: "3.24"
-  origversion: null
-  status: legacy
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite-source
-  binname: sqlite-source
-  visiblename: SQLite Source
-  version: "3.24"
-  origversion: null
-  status: legacy
-  licenses:
-    - Freeware
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: sqlite
-  binname: sqlite
-  visiblename: SQLite
-  version: 3.25.1
   origversion: null
   status: legacy
   categories:
@@ -6840,9 +6822,9 @@
   srcname: databases/sqlite3
   binname: sqlite3
   visiblename: databases/sqlite3
-  version: 3.53.2
-  origversion: null
-  status: outdated
+  version: 3.54.1
+  origversion: 3.54.1p0
+  status: newest
   summary: embedded SQL implementation
   maintainers:
     - ports@openbsd.org
@@ -7482,24 +7464,73 @@
   categories:
     - Productivity/Databases/Servers
   vulnerable: true
-- repo: pardus_21
-  subrepo: main
-  srcname: sqlite3
-  binnames:
-    - lemon
-    - sqlite3
-    - sqlite3-doc
-    - libsqlite3-0
-    - libsqlite3-dev
-    - libsqlite3-tcl
-  visiblename: sqlite3
-  version: 3.34.1
-  origversion: 3.34.1-3
+- repo: os4depot
+  binname: development/library/misc/sqlite.lha
+  visiblename: sqlite.lha
+  version: 3.34.0
+  origversion: null
   status: outdated
-  maintainers:
-    - gcs@debian.org
+  summary: SQL database engine
   categories:
-    - database
+    - development/library/misc
+  vulnerable: true
+- repo: parabola
+  subrepo: core
+  srcname: sqlite
+  binname: sqlite-tcl
+  visiblename: sqlite-tcl
+  version: 3.54.1
+  origversion: 3.54.1-1
+  status: newest
+  summary: sqlite Tcl Extension Architecture (TEA)
+  licenses:
+    - LicenseRef-Sqlite
+  vulnerable: true
+- repo: parabola
+  subrepo: core
+  srcname: sqlite
+  binname: sqlite
+  visiblename: sqlite
+  version: 3.54.1
+  origversion: 3.54.1-1
+  status: newest
+  summary: A C library that implements an SQL database engine
+  licenses:
+    - LicenseRef-Sqlite
+  vulnerable: true
+- repo: parabola
+  subrepo: core
+  srcname: sqlite
+  binname: lemon
+  visiblename: lemon
+  version: 3.54.1
+  origversion: 3.54.1-1
+  status: newest
+  summary: A parser generator
+  licenses:
+    - LicenseRef-Sqlite
+  vulnerable: true
+- repo: parabola
+  subrepo: core
+  srcname: sqlite
+  binname: sqlite-analyzer
+  visiblename: sqlite-analyzer
+  version: 3.54.1
+  origversion: 3.54.1-1
+  status: newest
+  summary: An analysis program for sqlite3 database files
+  licenses:
+    - LicenseRef-Sqlite
+  vulnerable: true
+- repo: xrepo
+  srcname: sqlite3
+  visiblename: sqlite3
+  version: 3.35.0+300
+  origversion: null
+  status: legacy
+  summary: The most used database engine in the world
+  licenses:
+    - Public Domain
   vulnerable: true
 - repo: pardus_21
   subrepo: updates/main
@@ -7514,6 +7545,25 @@
   visiblename: sqlite3
   version: 3.34.1
   origversion: 3.34.1-3+deb11u1
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - database
+  vulnerable: true
+- repo: pardus_21
+  subrepo: main
+  srcname: sqlite3
+  binnames:
+    - lemon
+    - sqlite3
+    - sqlite3-doc
+    - libsqlite3-0
+    - libsqlite3-dev
+    - libsqlite3-tcl
+  visiblename: sqlite3
+  version: 3.34.1
+  origversion: 3.34.1-3
   status: outdated
   maintainers:
     - gcs@debian.org
@@ -7640,17 +7690,19 @@
   vulnerable: true
 - repo: raspbian_oldstable
   subrepo: main
-  srcname: sqlite
+  srcname: sqlite3
   binnames:
-    - sqlite
-    - sqlite-doc
-    - libsqlite0
-    - libsqlite0-dev
-    - libsqlite-tcl
-  visiblename: sqlite
-  version: 2.8.17
-  origversion: 2.8.17-15
-  status: legacy
+    - lemon
+    - sqlite3
+    - sqlite3-doc
+    - libsqlite3-0
+    - libsqlite3-dev
+    - libsqlite3-tcl
+    - sqlite3-tools
+  visiblename: sqlite3
+  version: 3.40.1
+  origversion: 3.40.1-2+deb12u2
+  status: outdated
   maintainers:
     - gcs@debian.org
   categories:
@@ -7739,7 +7791,7 @@
   binname: sqlite3
   visiblename: databases/sqlite3
   version: 3.54.1
-  origversion: null
+  origversion: 3.54.1nb1
   status: newest
   summary: SQL Database Engine in a C Library
   maintainers:
@@ -7765,7 +7817,7 @@
   binname: sqlite3-tcl
   visiblename: databases/sqlite3-tcl
   version: 3.54.1
-  origversion: null
+  origversion: 3.54.1nb1
   status: newest
   summary: SQL Database Engine in a C Library (TCL extension)
   maintainers:
@@ -7833,6 +7885,16 @@
   categories:
     - devel
   vulnerable: true
+- repo: xrepo
+  srcname: sqlite3
+  visiblename: sqlite3
+  version: 3.35.0+400
+  origversion: null
+  status: legacy
+  summary: The most used database engine in the world
+  licenses:
+    - Public Domain
+  vulnerable: true
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: sqlite3
@@ -7874,26 +7936,6 @@
   categories:
     - devel
   vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: sqlite3
-  binnames:
-    - lemon
-    - sqlite3
-    - sqlite3-doc
-    - libsqlite3-0
-    - libsqlite3-dev
-    - libsqlite3-tcl
-    - sqlite3-tools
-  visiblename: sqlite3
-  version: 3.40.1
-  origversion: 3.40.1-2+deb12u2
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - database
-  vulnerable: true
 - repo: raspbian_stable
   subrepo: main
   srcname: sqlite3
@@ -7930,9 +7972,9 @@
     - libsqlite3-ext-icu
     - sqlite3-tools
   visiblename: sqlite3
-  version: 3.53.4
-  origversion: 3.53.4-2
-  status: outdated
+  version: 3.54.1
+  origversion: 3.54.1-2
+  status: newest
   maintainers:
     - gcs@debian.org
   categories:
@@ -8117,25 +8159,20 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: rosa_2019_1
-  subrepo: contrib/release
-  srcname: sqlite2
-  binnames:
-    - lib64sqlite2_0
-    - lib64sqlite2_0-devel
-    - sqlite2-tools
-    - sqlite2-tcl
-  visiblename: sqlite2
-  version: 2.8.17
-  origversion: 2.8.17-14
-  status: legacy
-  summary: C library that implements an embeddable SQL database engine
+- repo: solus
+  srcname: sqlite3
+  binname: sqlite3-32bit
+  visiblename: sqlite3-32bit
+  version: 3.53.4
+  origversion: null
+  status: outdated
+  summary: 32-bit libraries for sqlite3
   maintainers:
-    - alexander@mezon.ru
+    - josephriches@gmail.com
   licenses:
-    - Public Domain
+    - Public-Domain
   categories:
-    - System/Libraries
+    - emul32
   vulnerable: true
 - repo: rosa_2019_1
   subrepo: main/release
@@ -8175,22 +8212,21 @@
   categories:
     - Databases
   vulnerable: true
-- repo: rosa_13
-  subrepo: main/release
-  srcname: sqlite
+- repo: rosa_2019_1
+  subrepo: contrib/release
+  srcname: sqlite2
   binnames:
-    - lib64sqlite3_0
-    - lib64sqlite3-devel
-    - sqlite-tools
-    - sqlite-debuginfo
-    - sqlite-debugsource
-  visiblename: sqlite
-  version: 3.47.2
-  origversion: 3.47.2-3
-  status: outdated
+    - lib64sqlite2_0
+    - lib64sqlite2_0-devel
+    - sqlite2-tools
+    - sqlite2-tcl
+  visiblename: sqlite2
+  version: 2.8.17
+  origversion: 2.8.17-14
+  status: legacy
   summary: C library that implements an embeddable SQL database engine
   maintainers:
-    - a.proklov@rosa.ru
+    - alexander@mezon.ru
   licenses:
     - Public Domain
   categories:
@@ -8236,6 +8272,27 @@
     - Public Domain
   categories:
     - Databases
+  vulnerable: true
+- repo: rosa_13
+  subrepo: main/release
+  srcname: sqlite
+  binnames:
+    - lib64sqlite3_0
+    - lib64sqlite3-devel
+    - sqlite-tools
+    - sqlite-debuginfo
+    - sqlite-debugsource
+  visiblename: sqlite
+  version: 3.47.2
+  origversion: 3.47.2-3
+  status: outdated
+  summary: C library that implements an embeddable SQL database engine
+  maintainers:
+    - a.proklov@rosa.ru
+  licenses:
+    - Public Domain
+  categories:
+    - System/Libraries
   vulnerable: true
 - repo: scoop
   subrepo: main
@@ -8339,16 +8396,6 @@
   maintainers:
     - volkerdi@slackware.com
   vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: sqlite
-  visiblename: sqlite
-  version: 3.50.4
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
 - repo: solus
   srcname: sqlite3
   binname: sqlite3
@@ -8363,21 +8410,6 @@
     - Public-Domain
   categories:
     - system.base
-  vulnerable: true
-- repo: solus
-  srcname: sqlite3
-  binname: sqlite3-32bit
-  visiblename: sqlite3-32bit
-  version: 3.53.4
-  origversion: null
-  status: outdated
-  summary: 32-bit libraries for sqlite3
-  maintainers:
-    - josephriches@gmail.com
-  licenses:
-    - Public-Domain
-  categories:
-    - emul32
   vulnerable: true
 - repo: solus
   srcname: sqlite3
@@ -8600,6 +8632,24 @@
     - Applications/Databases
   vulnerable: true
 - repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: sqlite
+  binnames:
+    - sqlite
+    - sqlite-doc
+    - libsqlite0
+    - libsqlite0-dev
+    - libsqlite-tcl
+  visiblename: sqlite
+  version: 2.8.17
+  origversion: 2.8.17-10ubuntu2
+  status: legacy
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_14_04
   subrepo: trusty-updates/main
   srcname: sqlite3
   binnames:
@@ -8620,24 +8670,6 @@
     - misc
   vulnerable: true
 - repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: sqlite
-  binnames:
-    - sqlite
-    - sqlite-doc
-    - libsqlite0
-    - libsqlite0-dev
-    - libsqlite-tcl
-  visiblename: sqlite
-  version: 2.8.17
-  origversion: 2.8.17-10ubuntu2
-  status: legacy
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_14_04
   subrepo: trusty/main
   srcname: sqlite3
   binnames:
@@ -8651,6 +8683,26 @@
   visiblename: sqlite3
   version: 3.8.2
   origversion: 3.8.2-1ubuntu2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - misc
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/main
+  srcname: sqlite3
+  binnames:
+    - lemon
+    - sqlite3
+    - sqlite3-doc
+    - libsqlite3-0-dbg
+    - libsqlite3-0
+    - libsqlite3-dev
+    - libsqlite3-tcl
+  visiblename: sqlite3
+  version: 3.11.0
+  origversion: 3.11.0-1ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -8695,23 +8747,22 @@
   categories:
     - misc
   vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/main
+- repo: ubuntu_18_04
+  subrepo: bionic/main
   srcname: sqlite3
   binnames:
     - lemon
     - sqlite3
     - sqlite3-doc
-    - libsqlite3-0-dbg
     - libsqlite3-0
     - libsqlite3-dev
     - libsqlite3-tcl
   visiblename: sqlite3
-  version: 3.11.0
-  origversion: 3.11.0-1ubuntu1
+  version: 3.22.0
+  origversion: 3.22.0-1
   status: outdated
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
+    - gcs@debian.org
   categories:
     - misc
   vulnerable: true
@@ -8749,25 +8800,6 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - misc
-  vulnerable: true
-- repo: ubuntu_18_04
-  subrepo: bionic/main
-  srcname: sqlite3
-  binnames:
-    - lemon
-    - sqlite3
-    - sqlite3-doc
-    - libsqlite3-0
-    - libsqlite3-dev
-    - libsqlite3-tcl
-  visiblename: sqlite3
-  version: 3.22.0
-  origversion: 3.22.0-1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
   categories:
     - misc
   vulnerable: true
@@ -8886,26 +8918,6 @@
     - misc
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble/main
-  srcname: sqlite3
-  binnames:
-    - lemon
-    - sqlite3
-    - sqlite3-doc
-    - libsqlite3-0
-    - libsqlite3-dev
-    - libsqlite3-tcl
-    - sqlite3-tools
-  visiblename: sqlite3
-  version: 3.45.1
-  origversion: 3.45.1-1ubuntu2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - misc
-  vulnerable: true
-- repo: ubuntu_24_04
   subrepo: noble-updates/main
   srcname: sqlite3
   binnames:
@@ -8919,6 +8931,26 @@
   visiblename: sqlite3
   version: 3.45.1
   origversion: 3.45.1-1ubuntu2.9
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - misc
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble/main
+  srcname: sqlite3
+  binnames:
+    - lemon
+    - sqlite3
+    - sqlite3-doc
+    - libsqlite3-0
+    - libsqlite3-dev
+    - libsqlite3-tcl
+    - sqlite3-tools
+  visiblename: sqlite3
+  version: 3.45.1
+  origversion: 3.45.1-1ubuntu2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -8970,6 +9002,28 @@
     - misc
   vulnerable: true
 - repo: ubuntu_25_10
+  subrepo: questing-updates/main
+  srcname: sqlite3
+  binnames:
+    - lemon
+    - sqlite3
+    - sqlite3-doc
+    - libsqlite3-0
+    - libsqlite3-dev
+    - libsqlite3-tcl
+    - libsqlite3-ext-csv
+    - libsqlite3-ext-icu
+    - sqlite3-tools
+  visiblename: sqlite3
+  version: 3.46.1
+  origversion: 3.46.1-8ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - misc
+  vulnerable: true
+- repo: ubuntu_25_10
   subrepo: questing/main
   srcname: sqlite3
   binnames:
@@ -8991,27 +9045,15 @@
   categories:
     - misc
   vulnerable: true
-- repo: ubuntu_25_10
-  subrepo: questing-updates/main
+- repo: xrepo
   srcname: sqlite3
-  binnames:
-    - lemon
-    - sqlite3
-    - sqlite3-doc
-    - libsqlite3-0
-    - libsqlite3-dev
-    - libsqlite3-tcl
-    - libsqlite3-ext-csv
-    - libsqlite3-ext-icu
-    - sqlite3-tools
   visiblename: sqlite3
-  version: 3.46.1
-  origversion: 3.46.1-8ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - misc
+  version: 3.23.0+0
+  origversion: null
+  status: legacy
+  summary: The most used database engine in the world
+  licenses:
+    - Public Domain
   vulnerable: true
 - repo: ubuntu_26_04
   subrepo: resolute-updates/main
@@ -9225,16 +9267,6 @@
 - repo: xrepo
   srcname: sqlite3
   visiblename: sqlite3
-  version: 3.23.0+0
-  origversion: null
-  status: legacy
-  summary: The most used database engine in the world
-  licenses:
-    - Public Domain
-  vulnerable: true
-- repo: xrepo
-  srcname: sqlite3
-  visiblename: sqlite3
   version: 3.24.0+0
   origversion: null
   status: legacy
@@ -9246,26 +9278,6 @@
   srcname: sqlite3
   visiblename: sqlite3
   version: 3.34.0+100
-  origversion: null
-  status: legacy
-  summary: The most used database engine in the world
-  licenses:
-    - Public Domain
-  vulnerable: true
-- repo: xrepo
-  srcname: sqlite3
-  visiblename: sqlite3
-  version: 3.35.0+300
-  origversion: null
-  status: legacy
-  summary: The most used database engine in the world
-  licenses:
-    - Public Domain
-  vulnerable: true
-- repo: xrepo
-  srcname: sqlite3
-  visiblename: sqlite3
-  version: 3.35.0+400
   origversion: null
   status: legacy
   summary: The most used database engine in the world
