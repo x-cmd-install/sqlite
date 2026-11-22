@@ -14,15 +14,15 @@ x install sqlite
 
 ## Code insight
 
-Total: **428,971** lines of code across **523** files in the top 5 languages.
+Total: **429,346** lines of code across **524** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 321,597 | 94,358 | 28,282 | 317 |
-| Tcl | 28,451 | 7,554 | 2,946 | 110 |
-| Autoconf | 25,921 | 2,045 | 1,038 | 13 |
+| C | 321,685 | 94,389 | 28,291 | 318 |
+| Tcl | 28,452 | 7,555 | 2,947 | 110 |
+| Autoconf | 25,919 | 2,045 | 1,038 | 13 |
 | JavaScript | 17,534 | 11,216 | 1,073 | 41 |
-| CHeader | 9,749 | 10,136 | 1,390 | 42 |
+| CHeader | 9,750 | 10,136 | 1,390 | 42 |
 
 ## OpenSSF Scorecard
 
@@ -41,22 +41,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,085 · **Forks**: 1,732 · **Open issues**: 0 · **Contributors**: 1
+- **Stars**: 11,096 · **Forks**: 1,733 · **Open issues**: 0 · **Contributors**: 1
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 26 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 33301
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 26 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 33322
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-22 | 0 | 0 | 3 | 0 | 0 | 0 |
-| 90d | 2026-08-23 | 0 | 0 | 4 | 0 | 0 | 0 |
-| last180d | 2026-05-25 | 0 | 0 | 7 | 0 | 0 | 0 |
-| 360d | 2025-11-26 | 0 | 0 | 11 | 0 | 0 | 0 |
-| last720d | 2024-12-01 | 0 | 0 | 16 | 0 | 0 | 4032 |
+| 30d | 2026-10-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-23 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-08-24 | 0 | 0 | 4 | 0 | 0 | 0 |
+| last180d | 2026-05-26 | 0 | 0 | 7 | 0 | 0 | 0 |
+| 360d | 2025-11-27 | 0 | 0 | 11 | 0 | 0 | 0 |
+| last720d | 2024-12-02 | 0 | 0 | 16 | 0 | 0 | 4049 |
 
 ## Distribution status
 
@@ -86,4 +86,4 @@ Install metadata for sqlite lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T08:59:05Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T07:58:49Z._
