@@ -2,45 +2,45 @@ about:
   description: "Official Git mirror of the SQLite source tree"
   license: NOASSERTION
   homepage: 
-  head: 163f261
+  head: 9cea2e1
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-27T09:45:10Z
+  collectedAt: 2026-11-28T08:39:00Z
 timeline:
   created: 2019-03-18
-  lastCommit: 2026-11-27
+  lastCommit: 2026-11-28
   lastVersion: 
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 11155
+  star: 11166
   watcher: 152
-  fork: 1738
+  fork: 1739
   release: 0
   contributor: 1
   pullRequest: 53
   issue: 0
 language:
-  C: 15666154
+  C: 15670363
   Tcl: 1432269
   JavaScript: 1108709
   Java: 471722
   Makefile: 213029
   Shell: 126359
   HTML: 104425
-  PLpgSQL: 97000
+  PLpgSQL: 101368
   Yacc: 84103
   Batchfile: 37887
   C#: 23719
   Roff: 5315
   CSS: 2823
   Python: 2389
-totalBytes: 19375903
+totalBytes: 19384480
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 0
     openPR: 0
@@ -48,7 +48,7 @@ recent:
     openIssue: 0
     commit: 0
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 0
     openPR: 3
@@ -56,7 +56,7 @@ recent:
     openIssue: 0
     commit: 0
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 0
     openPR: 3
@@ -64,7 +64,7 @@ recent:
     openIssue: 0
     commit: 0
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 0
     openPR: 7
@@ -72,36 +72,36 @@ recent:
     openIssue: 0
     commit: 0
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
     mergedPR: 0
-    openPR: 10
+    openPR: 9
     closedIssue: 0
     openIssue: 0
     commit: 0
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
     mergedPR: 0
     openPR: 16
     closedIssue: 0
     openIssue: 0
-    commit: 4095
+    commit: 4111
 total:
   release: 0
   mergedPR: 0
   openPR: 26
   closedIssue: 0
   openIssue: 0
-  commit: 33387
+  commit: 33408
 ---
 path: /home/runner/.x-repo/github.com/sqlite/sqlite
-collectedAt: 2026-11-27T09:46:57Z
+collectedAt: 2026-11-28T08:40:14Z
 loc:
   C:
-    code: 322164
-    comments: 94550
-    blanks: 28319
+    code: 322226
+    comments: 94587
+    blanks: 28326
     files: 319
   Tcl:
     code: 28464
@@ -109,9 +109,9 @@ loc:
     blanks: 2947
     files: 110
   Autoconf:
-    code: 25935
+    code: 25959
     comments: 2045
-    blanks: 1038
+    blanks: 1037
     files: 13
   JavaScript:
     code: 17534
@@ -119,14 +119,14 @@ loc:
     blanks: 1073
     files: 41
   CHeader:
-    code: 9769
+    code: 9770
     comments: 10147
     blanks: 1391
     files: 42
   Sql:
-    code: 8889
+    code: 9036
     comments: 55
-    blanks: 489
+    blanks: 490
     files: 26
   Java:
     code: 8418
@@ -194,9 +194,9 @@ loc:
     blanks: 229
     files: 18
 total:
-  code: 432573
-  comments: 165459
-  blanks: 39147
+  code: 432807
+  comments: 165496
+  blanks: 39154
   files: 711
 ---
 date: "2026-11-16"
